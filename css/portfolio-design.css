@@ -5,13 +5,6 @@ body{
 	font-size: 17px;
 	position: relative;
 }
-h4{
-	color: white;
-	font-family: "Inter", sans-serif;
-	font-size: 20px;
-	font-weight: 200;
-	letter-spacing: 5px;
-}
 p{
 	font-size: 17px;
 	font-weight: 400;
@@ -29,11 +22,12 @@ header nav{
  height: 80px;
 }
 header a figure{
-	margin-left: 20px;
+	margin-left: 5%;
 	margin-top: 10px;
 	position: absolute;
 }
 header #show-menu{
+	align-content: right;
 	cursor: pointer;
 	left: 85%;
 	overflow: hidden;
@@ -122,7 +116,7 @@ header nav #card-menu ul li.social-icons{
 	background-attachment: fixed;
 	color: white;
 	display: table;
-	font-family: 'Raleway';
+	font-family: "Inter";
 	position: relative;
 	text-align: center;
 	width: 100%;
@@ -141,114 +135,6 @@ header nav #card-menu ul li.social-icons{
 .portfolio-header-logo img{
 	margin:0px;
 	width: 100%;
-}
-.toolbar{
-	padding: 40px 0px 40px 0px;
-	text-align: center;
-}
-.button{
-	background: rgba(255, 255, 255, 0);
-	border: 1px solid white;
-	border-radius: 5px;
-	font-size: 14px;
-	height: 35px;
-	letter-spacing: 2px;
-	color:white;
-	cursor: pointer;
-	display: inline-block;
-	margin: 10px;
-	padding: 15px;
-	text-decoration: none;
-	-webkit-transition:0.4s;
-	-moz-transition:0.4s;
-	-o-transition:0.4s;
-	-ms-transition:0.4s;
-	transition:0.4s;
-
-}
-.button:hover{
-	background: white;
-	color: black;
-}
-.active{
-	background: white;
-	color: black;
-}
-.video-gallery{
-	box-sizing: border-box;
-}
-.video{
-	box-sizing: border-box;
-	float: left;
-	margin: 0px;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-}
-.element-text{
-	position: absolute;
-	width: 90%;
-    left: 50%;
-    text-align: center;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-    z-index: 10;
-}
-.video h4{
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	-webkit-transition:0.3s;
-	-moz-transition:0.3s;
-	-o-transition:0.3s;
-	-ms-transition:0.3s;
-	transform: scale(1);
-	transition:0.3s;
-
-}
-.video:hover h4{
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
-}
-.video img{
-	margin: 0px;
-	vertical-align: middle;
-	width: 100%;
-	-webkit-filter: brightness(0.6);
-	-moz-filter: brightness(0.8);
-	-o-filter: brightness(0.8);
-	-ms-filter: brightness(0.8);
-	-webkit-transform: scale(1.05);
-	-moz-transform: scale(1.05);
-	-o-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	-ms-transition: 0.3s;
-	filter: brightness(0.6);
-	transform: scale(1.05);
-	transition: 0.3s;
-}
-.video:hover img{
-	-webkit-filter: brightness(0.5);
-	-moz-filter: brightness(0.7);
-	-o-filter: brightness(0.7);
-	-ms-filter: brightness(0.7);
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	filter: brightness(0.5);
-	transform: scale(1);
 }
 #button-up{
 	background: rgba(0,0,0,0.8);
@@ -310,7 +196,7 @@ footer p{
 @media screen and (min-width: 500px){
 	.portfolio-header-logo{
 	width: 496px;
-}
+	}
 }
 @media screen and (min-width: 950px){
 	header{
@@ -360,10 +246,7 @@ footer p{
 	header #CloseMenu {
 		display: none;
 	}
-	.portfolio-header-logo{
+		.portfolio-header-logo{
 	width: 696px;
-}
-	.video{
-	width: 50%;
 	}
 }

@@ -1,16 +1,15 @@
 body{
 	background: #1c1c1c;
 	color: white;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Inter", sans-serif;
 	font-size: 17px;
 	position: relative;
 }
 h4{
 	color: white;
-	font-family: Raleway, sans-serif;
+	font-family: "Inter", sans-serif;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 200;
 	letter-spacing: 5px;
 }
 .toolbar{
@@ -20,6 +19,7 @@ h4{
 .button{
 	background: transparent;
 	border: 1px solid white;
+	border-radius: 5px;
 	color:white;
 	cursor: pointer;
 	display: inline-block;
@@ -40,9 +40,6 @@ h4{
 .active{
 	background: white;
 	color: black;
-}
-.video-gallery{
-	box-sizing: border-box;
 }
 .video{
 	box-sizing: border-box;
@@ -117,13 +114,8 @@ h4{
 	filter: brightness(0.5);
 	transform: scale(1);
 }
-@media screen and (min-width: 664px){
-	.video{
-	width: 49.999%;
-	}
-}
 @media screen and (min-width: 950px){
 	.video{
-	width: 33.333%;
+	width: 50%;
 	}
 }
