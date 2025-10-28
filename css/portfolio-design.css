@@ -112,7 +112,7 @@ header nav #card-menu ul li.social-icons{
 .portfolio-header{
 	background-image: url("../img/tanaismenendezheader.jpg");
 	background-repeat: none;
-	background-position: center bottom;
+	background-position: center top;
 	background-attachment: fixed;
 	color: white;
 	display: table;

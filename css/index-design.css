@@ -153,7 +153,7 @@ header nav #card-menu ul li.social-icons{
   .fullscreen-bg {
     background: url('../img/tanaismenendezheader.jpg');
  	background-attachment: fixed;
- 	background-position: center bottom;
+ 	background-position: center top;
  }
   .fullscreen-bg-video {
     display: none;
