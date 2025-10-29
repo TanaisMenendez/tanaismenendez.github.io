@@ -168,6 +168,9 @@ header nav #card-menu ul li.social-icons{
 	    -ms-filter:brightness(50%);
 	    filter:brightness(50%);
 	}
+	  .fullscreen-bg-video {
+    display: none;
+}
 #main-logo{
 	height: 150px;
 	margin-left: auto;
