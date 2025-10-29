@@ -113,18 +113,18 @@ header nav #card-menu ul li.social-icons{
 .description{
 	margin-left: auto;
 	margin-right: auto; 
-	width: 90%;
+	width: 100%;
 }
 .description h1{
 	color: white;
 	font-family: Inter, sans-serif;
 	font-size: 24px;
-	font-weight: 300;
+	font-weight: 200;
 	line-height: 32px;
 	text-align: center;
 }
 .description p{
-	text-align: left;
+	text-align: center;
 }
 .video-container{
 	height: 0;
@@ -133,7 +133,7 @@ header nav #card-menu ul li.social-icons{
 	overflow: hidden;
 	padding-bottom: 53.437%;
 	position: relative;
-	width: 95%;
+	width: 100%;
 }
 .video-container iframe,
 .video-container object,
@@ -147,7 +147,7 @@ header nav #card-menu ul li.social-icons{
 .tanais-menendez-work{
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 500px;
+	max-width: 400px;
 	position: relative;
 	width: 90%;
 }
@@ -210,7 +210,7 @@ footer .rrss a:hover{
 footer p{
 	font-family: Inter;
 	font-size: 12px;
-	font-weight: 200;
+	font-weight: 100;
 	letter-spacing: 3px;
 	padding-bottom: 10px;
 }
@@ -268,36 +268,23 @@ header{
 		text-align: center;
 	}
 	.description{
-		display: inline-block;
-		margin-right: 2.5%;
-		max-width: 400px;
 		vertical-align: top;
-		width: 25%;
+		width: 45%;
 	}
 	.description h1{
 		padding-bottom: 20px;
-		text-align: left;
+		text-align: center;
 	}
 	.description p{
 		margin: 0px;
-		text-align: justify;
-	}
-	.share-video{
-		text-align: left;
-	}
-	#share-wp-dsktp{
-		display: inline-block;
-	}
-	#share-wp-mobile{
-		display: none;
+		text-align: center;
 	}
 	.video-container{
-		display: inline-block;
 		height: 0;
 		padding-bottom: 33.75%; /* 16/9 ratio */
 		padding-left: 0px;
 		padding-right: 0px;
-		width: 60%;
+		width: 75%;
 	}
 	.video-container iframe,
 	.video-container object,
