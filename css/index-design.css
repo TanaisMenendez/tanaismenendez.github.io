@@ -150,7 +150,7 @@ header nav #card-menu ul li.social-icons{
     z-index: -100;
     background: url('../img/tanaismenendezheader.jpg');
  		background-attachment: fixed;
- 		background-size: contain;
+ 		background-size: cover;
  		background-position: center center;
  		background-repeat: no-repeat;
  		background-color: #0D0D0D;
