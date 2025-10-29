@@ -7,7 +7,7 @@ body{
 }
 p{
 	font-size: 17px;
-	font-weight: 400;
+	font-weight: 200;
 	line-height: 1.7;
 }
 header{
@@ -118,7 +118,7 @@ header nav #card-menu ul li.social-icons{
 .description h1{
 	color: white;
 	font-family: Inter, sans-serif;
-	font-size: 24px;
+	font-size: 40px;
 	font-weight: 200;
 	line-height: 32px;
 	text-align: center;
@@ -269,14 +269,16 @@ header{
 	}
 	.description{
 		vertical-align: top;
-		width: 45%;
+		width: 50%;
 	}
 	.description h1{
 		padding-bottom: 20px;
+		padding-top: 20px;
 		text-align: center;
 	}
 	.description p{
 		margin: 0px;
+		margin-bottom: 25px;
 		text-align: center;
 	}
 	.video-container{
