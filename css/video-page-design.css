@@ -6,6 +6,7 @@ body{
 	position: relative;
 }
 p{
+	color: white;
 	font-size: 17px;
 	font-weight: 200;
 	line-height: 1.7;
@@ -118,10 +119,10 @@ header nav #card-menu ul li.social-icons{
 .description h1{
 	color: white;
 	font-family: Inter, sans-serif;
-	font-size: 30px;
-	font-weight: 100;
+	font-size: 25px;
+	font-weight: 200;
 	line-height: 32px;
-	letter-spacing: 7px;
+	letter-spacing: 4px;
 	text-align: center;
 	padding-bottom: 5px;
 	padding-top: 10px;
@@ -281,7 +282,7 @@ header{
 		padding-bottom: 36.56%; /* 16/9 ratio */
 		padding-left: 0px;
 		padding-right: 0px;
-		width: 60%;
+		width: 70%;
 	}
 	.video-container iframe,
 	.video-container object,
