@@ -155,19 +155,6 @@ header nav #card-menu ul li.social-icons{
  	background-attachment: fixed;
  	background-position: center top;
  }
- 	.fullscreen-bg-video {
-	    display: block;
-	    height: 100%;
-	    left: 0;
-	    position: absolute;
-	    top: 0;
-	    width: 100%;
-	    -webkit-filter:brightness(50%);
-	    -moz-filter:brightness(50%);
-	    -o-filter:brightness(50%);
-	    -ms-filter:brightness(50%);
-	    filter:brightness(50%);
-	}
 	  .fullscreen-bg-video {
     display: none;
 }
@@ -541,6 +528,19 @@ footer p{
 	header #CloseMenu {
 		display: none;
 	}
+	.fullscreen-bg-video {
+	  display: block;
+	  height: 100%;
+	  left: 0;
+    position: absolute;
+	  top: 0;
+    width: 100%;
+	  -webkit-filter:brightness(50%);
+	  -moz-filter:brightness(50%);
+	  -o-filter:brightness(50%);
+	  -ms-filter:brightness(50%);
+    filter:brightness(50%);
+}
 	#main-logo{
 	height: 230px;
 	margin-left: auto;
