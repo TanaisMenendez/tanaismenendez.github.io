@@ -286,8 +286,7 @@ header{
 		padding-bottom: 33.75%; /* 16/9 ratio */
 		padding-left: 0px;
 		padding-right: 0px;
-		width: 75%;
-		max-width: 1236px;
+		width: 60%;
 	}
 	.video-container iframe,
 	.video-container object,
