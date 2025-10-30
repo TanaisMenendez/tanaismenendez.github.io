@@ -109,6 +109,16 @@ header nav #card-menu ul li.social-icons{
 	font-family: 'icomoon';
 	font-weight: normal;
 }
+.portfolio-header{
+	display: table;
+	font-family: "Inter";
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.content-portfolio-header{
+	padding-top: 100px;
+}
 #button-up{
 	background: rgba(0,0,0,0.8);
 	border-radius: 50%;
