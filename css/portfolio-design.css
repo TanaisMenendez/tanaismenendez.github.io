@@ -109,33 +109,6 @@ header nav #card-menu ul li.social-icons{
 	font-family: 'icomoon';
 	font-weight: normal;
 }
-.portfolio-header{
-	background-image: url("../img/tanaismenendezheader.jpg");
-	background-repeat: none;
-	background-position: center top;
-	background-attachment: fixed;
-	color: white;
-	display: table;
-	font-family: "Inter";
-	position: relative;
-	text-align: center;
-	width: 100%;
-}
-.content-portfolio-header{
-	display: table-cell;
-	padding-bottom: 50px;
-	padding-top: 100px;
-	vertical-align: middle;
-}
-.portfolio-header-logo{
-	margin-left: auto;
-	margin-right: auto;
-	width: 296px;
-}
-.portfolio-header-logo img{
-	margin:0px;
-	width: 100%;
-}
 #button-up{
 	background: rgba(0,0,0,0.8);
 	border-radius: 50%;
@@ -245,8 +218,5 @@ footer p{
 	header #show-menu,
 	header #CloseMenu {
 		display: none;
-	}
-		.portfolio-header-logo{
-	width: 696px;
 	}
 }
