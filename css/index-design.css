@@ -366,6 +366,19 @@ div #icon-portfolio a{
 	text-align: center;
 	width: 100%;
 }
+.tanais-menendez-work{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+	position: relative;
+	width: 90%;
+}
+.tanais-menendez-work img{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: 100%;
+}
 #button-up{
 	background: rgba(0,0,0,0.8);
 	border-radius: 50%;
@@ -551,9 +564,6 @@ footer p{
 #about h3{
 	padding-top: 100px;
 	padding-bottom: 25px;
-}
-#about-content{
-	padding-bottom: 250px;
 }
 	#about-content{
 		margin-left: auto;
