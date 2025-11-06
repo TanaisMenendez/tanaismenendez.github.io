@@ -1,214 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>Tanais Menéndez Filmmaker</title>
+    <meta charset="UTF-8">
+    <title>Tanais Menéndez Filmmaker</title>
 
-	<!--Block Mobile Zoom-->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
-	<!--Keywords, description & author data-->
-	<meta name="keywords" content="tanais menendez, filmmaking, adventure videos, sport videos, travel videos">
-	<meta name="description" content="Me dedico a capturar todo tipo de momentos, en un proyecto audiovisual de toda una vida.">
-	<meta name="owner" content="Tanais Menéndez">
-	<meta name="author" content="Tanais Menéndez">
-	<meta name="robots" content="index, follow">
-	<link rel="canonical" href="https://tanaismenendez.es/" />
-	<!--Favicon-->
-	<!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
-	<!--[if IE]><link rel="shortcut icon" href="img/favicon/favicon-old.ico"><![endif]-->
+    <meta name="keywords" content="tanais menendez, filmmaking, adventure videos, sport videos, travel videos">
+    <meta name="description" content="Me dedico a capturar todo tipo de momentos, en un proyecto audiovisual de toda una vida.">
+    <meta name="owner" content="Tanais Menéndez">
+    <meta name="author" content="Tanais Menéndez">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tanaismenendez.es/" />
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-	<!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" href="img/favicon/favicon.png">
 
-	<!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
-	<link rel="icon" href="img/favicon/favicon.png">
+    <meta property="og:url" content="https://tanaismenendez.es/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tanais Menéndez Filmmaker" />
+    <meta property="og:description" content="Me dedico a capturar todo tipo de momentos, en un proyecto audiovisual de toda una vida." />
+    <meta property="og:image" content="https://tanaismenendez.es/img/open-graph/tanais-menendez.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-	<!--Facebook-->
-	    <meta property="og:url" content="https://tanaismenendez.es/" />
-	    <meta property="og:type" content="website" />
-	    <meta property="og:title" content="Tanais Menéndez Filmmaker" />
-	    <meta property="og:description" content="Me dedico a capturar todo tipo de momentos, en un proyecto audiovisual de toda una vida." />
-	    <meta property="og:image" content="https://tanaismenendez.es/img/open-graph/tanais-menendez.jpg" />
-	    <meta property="og:image:width" content="1200" />
-	    <meta property="og:image:height" content="630" />
-
-	<!--CSS & JS: Normalize, GoogleFonts, jQuery & Styles CSS-->
-	<link rel="stylesheet" href="css/normalize.min.css">
-	<link rel="stylesheet" href="css/icomoon.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/index-design.min.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/menu.js"></script>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/icomoon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index-design.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
 
 </head>
 <body>
-	<!--Menu-->
-	<header>
-		<a href="#home">
-				<figure><img src="icons/tanais-menendez.png" alt="Tanais Menéndez Filmmaker">
-				</figure>
-		</a>
-		<div id="show-menu" class="icon-menu" onclick="displayMenu() "><span class="icon-bars"></span>
-		</div>
-		<nav>
-			<div id="card-menu" class="menu-cerrado">
-				<figure id="logo-menu" class="close-menu"><a href="#home"><img src="icons/tanaismenendez_logo.png" alt="Tanais Menéndez Filmmaker"></a></figure>
-				<ul>
-					<li><a href="#portfolio" class="close-menu">PORTFOLIO</a></li>
-					<li><a href="#about" class="close-menu">ABOUT ME</a></li>
-					<li class="social-icons"><a id="instagram" href="https://instagram.com/tanaismenendez" target="_blank"></a></li>
-					<li class="social-icons"><a id="youtube" href="https://www.youtube.com/@TanaisMenendez" target="_blank"></a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	<!--Content-->
-	<div id="secciones">
-		<section id="home" style="overflow-x: hidden">
-			<div id="content-home">
-				<div class="fullscreen-bg">
-				    <video loop muted autoplay playsinline poster="img/tanaismenendezheader.jpg" class="fullscreen-bg-video">
-				        <source src="video/introweb.mp4" type="video/mp4">
-				    </video>
-				</div>
-				<div data-aos="fade-down" id="main-logo">
-						<img src="icons/tanaismenendez_logo2.png" alt="Tanais Menéndez Filmmaker">
-				</div>
-				<div data-aos="fade-down" data-aos-anchor="#home" id="icon-home">
-					<a href="#portfolio">
-						<div class="home-buttom-border" id="PFBTN">
-							<div class="home-buttom">PORTFOLIO</div>
-						</div>
-					</a>
-					<a href="#about">
-						<div class="home-buttom-border">
-							<div class="home-buttom">ABOUT ME</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</section>
-		<section id="portfolio" style="overflow-x: hidden">
-				<div id="latest-videos">
-					<div data-aos="fade" class="video">
-						<a href="the-lost-grateful-years">
-							<div class="element-text">
-								<h4>THE LOST/GRATEFUL YEARS</h4>
-							</div>
-							<figure>
-								<img src="img/covers/the-lost-grateful-years.jpg" loading="lazy" alt="The Lost/Grateful Years">
-							</figure>
-						</a>
-					</div>
-					<div data-aos="fade" class="video">
-						<a href="resurrection-fest-2025">
-							<div class="element-text">
-								<h4>RESURRECTION FEST 2025</h4>
-							</div>
-							<figure>
-								<img src="img/covers/resurrection-fest-2025.jpg" loading="lazy" alt="Resurrection Fest 2025">
-							</figure>
-						</a>
-					</div>
-					<div data-aos="fade" class="video">
-						<a href="la-sacagueyos-2023">
-							<div class="element-text">
-								<h4>LA SACAGÜEYOS 2023</h4>
-							</div>
-							<figure>
-								<img src="img/covers/la-sacagueyos-2023.jpg" loading="lazy" alt="La Sacagüeyos 2023">
-							</figure>
-						</a>
-					</div>
-					<div id="latest-videos">					
-					<div data-aos="fade" class="video">
-						<a href="trip-semana-santa-2023">
-							<div class="element-text">
-								<h4>TRIP | SEMANA SANTA 2023</h4>
-							</div>
-							<figure>
-								<img src="img/covers/semana-santa-2023.jpg" loading="lazy" alt="Trip | Semana Santa 2023">
-							</figure>
-						</a>
-					</div>
-					<div data-aos="fade" class="video">
-						<a href="the-b-side-fpv-edit">
-							<div class="element-text">
-								<h4>THE B-SIDE FPV EDIT</h4>
-							</div>
-							<figure>
-								<img src="img/covers/the-b-side-fpv-edit.jpg" loading="lazy" alt="The B-Side FPV Edit">
-							</figure>
-						</a>
-					</div>
-					<div data-aos="fade" class="video">
-						<a href="dreamy-freedive">
-							<div class="element-text">
-								<h4>TANAIS MENÉNDEZ | DREAMY FREEDIVE</h4>
-							</div>
-							<figure>
-								<img src="img/covers/dreamy-freedive.jpg" loading="lazy" alt="Tanais Menéndez | Dreamy Freedive">
-							</figure>
-						</a>
-					</div>
-				</div>
-				<div style="clear: both"></div>
-				<div id="icon-portfolio">
-					<a href="portfolio">
-							<div class="portfolio-buttom">VER MÁS</div>
-					</a>
-				</div>
-			</div>
-		</section>
-		<section id="about" style="overflow-x: hidden">
-				<h3 data-aos="fade-down" data-aos-offset="200">ABOUT ME</h3>
-				<div id="about-content">
-					<div data-aos="fade-right" data-aos-offset="200" id="about-photo">
-					<figure>
-						<img src="img/tanaismenendez.jpg" loading="lazy" alt="TanaisMenendez">
-					</figure>
-					</div>
-						<div data-aos="fade-left" data-aos-offset="200" id="about-text">
-							<p>¿Qué es la vida si no momentos que brillan intensamente cuando los recordamos?</p>
+    <header>
+        <a href="#home">
+                <figure><img src="icons/tanais-menendez.png" alt="Tanais Menéndez Filmmaker">
+                </figure>
+        </a>
+        <div id="show-menu" class="icon-menu" onclick="displayMenu() "><span class="icon-bars"></span>
+        </div>
+        <nav>
+            <div id="card-menu" class="menu-cerrado">
+                <figure id="logo-menu" class="close-menu"><a href="#home"><img src="icons/tanaismenendez_logo.png" alt="Tanais Menéndez Filmmaker"></a></figure>
+                <ul>
+                    <li><a href="#portfolio" class="close-menu">PORTFOLIO</a></li>
+                    <li><a href="#about" class="close-menu">ABOUT ME</a></li>
+                    <li class="social-icons"><a id="instagram" href="https://instagram.com/tanaismenendez" target="_blank"></a></li>
+                    <li class="social-icons"><a id="youtube" href="https://www.youtube.com/@TanaisMenendez" target="_blank"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="secciones">
+        <section id="home" style="overflow-x: hidden">
+            <div id="content-home">
+                <div class="fullscreen-bg">
+                    <video loop muted autoplay playsinline poster="img/tanaismenendezheader.jpg" class="fullscreen-bg-video">
+                        <source src="video/introweb.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div data-aos="fade-down" id="main-logo">
+                        <img src="icons/tanaismenendez_logo2.png" alt="Tanais Menéndez Filmmaker">
+                </div>
+                <div data-aos="fade-down" data-aos-anchor="#home" id="icon-home">
+                    <a href="#portfolio">
+                        <div class="home-buttom-border" id="PFBTN">
+                            <div class="home-buttom">PORTFOLIO</div>
+                        </div>
+                    </a>
+                    <a href="#about">
+                        <div class="home-buttom-border">
+                            <div class="home-buttom">ABOUT ME</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" style="overflow-x: hidden">
+                <div id="latest-videos">
+                    <div data-aos="fade" class="video">
+                        <a href="the-lost-grateful-years">
+                            <div class="element-text">
+                                <h4>THE LOST/GRATEFUL YEARS</h4>
+                            </div>
+                            <figure>
+                                <img src="img/covers/the-lost-grateful-years.jpg" loading="lazy" alt="The Lost/Grateful Years">
+                            </figure>
+                        </a>
+                    </div>
+                    <div data-aos="fade" class="video">
+                        <a href="resurrection-fest-2025">
+                            <div class="element-text">
+                                <h4>RESURRECTION FEST 2025</h4>
+                            </div>
+                            <figure>
+                                <img src="img/covers/resurrection-fest-2025.jpg" loading="lazy" alt="Resurrection Fest 2025">
+                            </figure>
+                        </a>
+                    </div>
+                    <div data-aos="fade" class="video">
+                        <a href="la-sacagueyos-2023">
+                            <div class="element-text">
+                                <h4>LA SACAGÜEYOS 2023</h4>
+                            </div>
+                            <figure>
+                                <img src="img/covers/la-sacagueyos-2023.jpg" loading="lazy" alt="La Sacagüeyos 2023">
+                            </figure>
+                        </a>
+                    </div>
+                    <div id="latest-videos">					
+                    <div data-aos="fade" class="video">
+                        <a href="trip-semana-santa-2023">
+                            <div class="element-text">
+                                <h4>TRIP | SEMANA SANTA 2023</h4>
+                            </div>
+                            <figure>
+                                <img src="img/covers/semana-santa-2023.jpg" loading="lazy" alt="Trip | Semana Santa 2023">
+                            </figure>
+                        </a>
+                    </div>
+                    <div data-aos="fade" class="video">
+                        <a href="the-b-side-fpv-edit">
+                            <div class="element-text">
+                                <h4>THE B-SIDE FPV EDIT</h4>
+                            </div>
+                            <figure>
+                                <img src="img/covers/the-b-side-fpv-edit.jpg" loading="lazy" alt="The B-Side FPV Edit">
+                            </figure>
+                        </a>
+                    </div>
+                    <div data-aos="fade" class="video">
+                        <a href="dreamy-freedive">
+                            <div class="element-text">
+                                <h4>TANAIS MENÉNDEZ | DREAMY FREEDIVE</h4>
+                            </div>
+                            <figure>
+                                <img src="img/covers/dreamy-freedive.jpg" loading="lazy" alt="Tanais Menéndez | Dreamy Freedive">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+                <div id="icon-portfolio">
+                    <a href="portfolio">
+                            <div class="portfolio-buttom">VER MÁS</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="about" style="overflow-x: hidden">
+                <h3 data-aos="fade-down" data-aos-offset="200">ABOUT ME</h3>
+                <div id="about-content">
+                    <div data-aos="fade-right" data-aos-offset="200" id="about-photo">
+                    <figure>
+                        <img src="img/tanaismenendez.jpg" loading="lazy" alt="TanaisMenendez">
+                    </figure>
+                    </div>
+                        <div data-aos="fade-left" data-aos-offset="200" id="about-text">
+                            <p>¿Qué es la vida si no momentos que brillan intensamente cuando los recordamos?</p>
 
-							<p>Me llamo Tanais Menéndez y disfruto compartiendo con el mundo esos pequeños momentos que nos regala la vida, cuando miramos más allá de la rutina, el trabajo y la ciudad. En este pequeño lugar de internet encontrarás esos momentos que comparto con amigos y familia, sobre todo a través de la naturaleza y el deporte.</p>
+                            <p>Me llamo Tanais Menéndez y disfruto compartiendo con el mundo esos pequeños momentos que nos regala la vida, cuando miramos más allá de la rutina, el trabajo y la ciudad. En este pequeño lugar de internet encontrarás esos momentos que comparto con amigos y familia, sobre todo a través de la naturaleza y el deporte.</p>
 
-							<p>Bicicleta de montaña, escalada, montañismo, alpinismo, buceo, viajes... Son algunas de las cosas que podrás encontrar por aquí y que desde el 2006 he disfrutado grabando, editando y publicando, como un recuerdo de todo lo vivido, no como una ostentación, si no como una forma de echar la vista atrás y sentirse agradecido con lo vivido.</p>
+                            <p>Bicicleta de montaña, escalada, montañismo, alpinismo, buceo, viajes... Son algunas de las cosas que podrás encontrar por aquí y que desde el 2006 he disfrutado grabando, editando y publicando, como un recuerdo de todo lo vivido, no como una ostentación, si no como una forma de echar la vista atrás y sentirse agradecido con lo vivido.</p>
 
-							<p>También encontrarás otro tipo de videos, con una visión más "personal" o interior, pequeños experimentos que surgen de ideas y de la necesidad de expresarlas de alguna manera. Además, durante un tiempo he trabajado profesionalmente en el mundo audiovisual y aquí encontrarás algunos de esos trabajos. </p>
-							
-							<p>Agradecerte a ti, por pasar por mi pequeño hogar en la red y dedicar parte de tu tiempo a compartir este viaje. Espero que lo disfrutes 😉</p>
-					</div>
-				</div>
-				<div class="tanais-menendez-work">
-				<img src="icons/tanaismenendez_logo2.png" alt="Tanais Menéndez Filmmaker">
-				</div>
-		</section>
-	</div>
-	<!--Button-up-->
-	<a href="#" class="scrollToTop"><div onclick="topFunction()" id="button-up" class="icon-angle-up"></div></a>
-	<!--Footer-->
-	<footer>		
-		<div class="rrss">
-			<a href="https://instagram.com/tanaismenendez" target="_blank"></a>
-			<a href="https://youtube.com/FreerideSpirit" target="_blank"></a>
-		</div>
-		<p>TANAIS MENÉNDEZ FILMMAKER <span id="dateDivy"></span></p>	
-	</footer>
-	<!--Scripts-->
-	<script src="js/smooth-scroll.js"></script>
-	<script src="js/button-up.js"></script>
-	<script src="js/show-date.js"></script>
-	<script src="js/aos.js"></script>
-	<script src="js/easeScrollActivator.js"></script>
-	<script>
-	    AOS.init({
-	      duration: 1000,
-	    })
-	  </script>
+                            <p>También encontrarás otro tipo de videos, con una visión más "personal" o interior, pequeños experimentos que surgen de ideas y de la necesidad de expresarlas de alguna manera. Además, durante un tiempo he trabajado profesionalmente en el mundo audiovisual y aquí encontrarás algunos de esos trabajos. </p>
+                            
+                            <p>Agradecerte a ti, por pasar por mi pequeño hogar en la red y dedicar parte de tu tiempo a compartir este viaje. Espero que lo disfrutes 😉</p>
+                    </div>
+                </div>
+                <div class="tanais-menendez-work">
+                <img src="icons/tanaismenendez_logo2.png" alt="Tanais Menéndez Filmmaker">
+                </div>
+        </section>
+    </div>
+    <a href="#" class="scrollToTop"><div onclick="topFunction()" id="button-up" class="icon-angle-up"></div></a>
+    <footer>		
+        <div class="rrss">
+            <a href="https://instagram.com/tanaismenendez" target="_blank"></a>
+            <a href="https://youtube.com/FreerideSpirit" target="_blank"></a>
+        </div>
+        <p>TANAIS MENÉNDEZ FILMMAKER <span id="dateDivy"></span></p>	
+    </footer>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/button-up.js"></script>
+    <script src="js/show-date.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/easeScrollActivator.js"></script>
+    <script>
+        AOS.init({
+          duration: 1000,
+        })
+      </script>
 </body>
 </html>
