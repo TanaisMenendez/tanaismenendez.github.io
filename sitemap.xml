@@ -6,15 +6,19 @@
              https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://tanaismenendez.es/</loc>
-  <lastmod>2025-12-16T20:39:00+01:00</lastmod>
+  <lastmod>2026-01-08T00:01:39+01:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://tanaismenendez.es/portfolio</loc>
-  <lastmod>2025-12-16T20:39:00+01:00</lastmod>
+  <lastmod>2026-01-08T00:01:39+01:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
+  <loc>https://tanaismenendez.es/atardecer-en-cabrones</loc>
+  <lastmod>2026-01-08T00:01:39+01:00</lastmod>
+  <priority>0.80</priority>
+</url>
   <loc>https://tanaismenendez.es/malaga-almeria-travel-video</loc>
   <lastmod>2025-12-16T20:39:00+01:00</lastmod>
   <priority>0.80</priority>
