@@ -1,16 +1,9 @@
-function displayMenu() {
-	var menu = document.getElementById("card-menu");
-
-	if (menu.className  == "menu-cerrado") {
-		menu.className = "menu-abierto"
-	} else {
-		menu.className = "menu-cerrado"
-	}
-
-}
-
-$(document).ready(function(){
-	$(".close-menu").click(function () {
-			$('.icon-menu').click();
-	});
-});
+function toggleMenu() {
+        // Seleccionamos el menú y el botón
+        var menu = document.getElementById('card-menu');
+        var button = document.getElementById('show-menu');
+        
+        // Alternamos las clases 'abierto'
+        menu.classList.toggle('menu-abierto');
+        button.classList.toggle('open'); // Esto activará la animación del botón
+    }
