@@ -35,7 +35,7 @@
         const description = element.getAttribute('data-desc') || "Disfruta de este proyecto audiovisual.";
 
         // Rellenar
-        iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1&mute=1&rel=0&vq=hd1080&modestbranding=1";
+        iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0&vq=hd1080&modestbranding=1";
         titleEl.innerText = title;
         descEl.innerText = description;
         linkEl.href = pageLink;
