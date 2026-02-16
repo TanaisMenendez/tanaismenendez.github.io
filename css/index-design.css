@@ -368,8 +368,7 @@ footer .rrss a:nth-child(2):before {
 
 /* Contenedor principal del modal */
 .lightbox-container {
-    background: rgba(0, 0, 0, 0,99);
-    backdrop-filter: blur(50px);
+    background: rgba(28, 28, 28, 28,99);
     width: 90%;
     max-width: 1300px; /* Ancho máximo en PC */
     max-height: 90vh;
@@ -416,6 +415,8 @@ footer .rrss a:nth-child(2):before {
     padding: 30px;
     color: white;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .lightbox-info h3 {
@@ -445,6 +446,53 @@ footer .rrss a:nth-child(2):before {
     margin-top: 10px;
 }
 .lightbox-btn:hover { background: white; color: black; }
+@media screen and (orientation: landscape) and (max-height: 600px) {
+    
+    .lightbox-container {
+        max-height: 100vh; /* Aprovechar toda la altura posible */
+        height: 100%;      /* Forzar altura completa */
+        width: 100%;       /* Opcional: usar todo el ancho si quieres */
+        border-radius: 0;  /* Quitamos bordes redondeados para ganar espacio */
+    }
+
+    .lightbox-overlay {
+        padding: 0; /* Quitamos los márgenes negros verticales */
+    }
+
+    .lightbox-content {
+        flex-direction: row; /* Ponemos video y texto lado a lado */
+        height: 100%;        /* Que ocupe todo el alto para poder hacer scroll */
+    }
+
+    /* El video ocupa la mitad izquierda */
+    .lightbox-video-wrapper {
+        width: 50%; 
+        height: 100%; /* Que ocupe todo el alto disponible */
+        background: black;
+        display: flex;
+        align-items: center; /* Centrar video verticalmente */
+    }
+
+    /* El texto ocupa la mitad derecha y tiene su propio scroll */
+    .lightbox-info {
+        width: 50%;
+        height: 100%;
+        overflow-y: auto;  /* Mantiene el scroll si el texto es muy largo */
+        padding: 20px 40px; /* Un poco más de aire a los lados */
+        
+        /* --- LA MAGIA DEL CENTRADO VERTICAL --- */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Esto centra el bloque verticalmente */
+        /* -------------------------------------- */
+    }
+    
+    /* Ajuste botón en landscape */
+    .lightbox-btn {
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
 @media screen and (min-width: 650px) {
     #latest-videos {
         grid-template-columns: 1fr 1fr;
