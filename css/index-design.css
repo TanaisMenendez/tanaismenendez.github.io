@@ -604,6 +604,8 @@ header nav #card-menu {
     #about-text p:first-child {
         text-align: center;
     }
+}
+@media screen and (min-width: 1025px) {
     .lightbox-content {
         flex-direction: row; /* Cambiamos a fila horizontal */
         align-items: stretch;
