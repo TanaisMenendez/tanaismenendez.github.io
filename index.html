@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index-design.min.css">
+    <link rel="stylesheet" href="css/index-design.css">
     <link rel="stylesheet" href="css/aos.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/menu.js"></script>
@@ -86,7 +86,9 @@
         <section id="portfolio" style="overflow-x: hidden">
                 <div id="latest-videos">
                     <div data-aos="fade" class="video">
-                        <a href="freediving-faro-del-caballo">
+                        <a href="freediving-faro-del-caballo" onclick="openLightbox(this)" data-youtube-id="oEdGdQXxo8A" data-desc="<p>Desde que visité el Faro del Caballo, en Santoña (Cantabria), siempre me quedé con las ganas de bajar el neopreno y el resto del equipo para bucear por esas aguas turquesas...</p>
+                    <p>Y al final, pude hacerlo! Eso si, bajar y subir una mochila con plomos, aletas y demás bártulos por los más de 700 peldaños de acceso al faro no fue lo más gratificante del día precisamente 😅.</p>
+                    <p>Pero mereció completamente la pena; pasar por arcos marinos, cuevas y encontrarme con bastante fauna (hablo de la marina, de la de dos patas mejor no hablar 🤣), hicieron de esta sesión de apnea, una de las más bonitas que he hecho, espero que os guste!</p>">
                             <div class="element-text">
                                 <h4>FREEDIVING | FARO DEL CABALLO</h4>
                             </div>
@@ -187,11 +189,29 @@
         </div>
         <p>TANAIS MENÉNDEZ FILMMAKER <span id="dateDivy"></span></p>	
     </footer>
+    <div id="video-lightbox" class="lightbox-overlay">
+    <div class="lightbox-container">
+        <div class="lightbox-close" onclick="closeLightbox()">&times;</div>
+        
+        <div class="lightbox-content">
+            <div class="lightbox-video-wrapper">
+                <iframe id="lb-iframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            
+            <div class="lightbox-info">
+                <h3 id="lb-title">TÍTULO DEL VIDEO</h3>
+                <p id="lb-desc">Aquí aparecerá la descripción del video. Puedes personalizar este texto para cada proyecto.</p>
+                <a id="lb-link" href="#" class="lightbox-btn">VER PROYECTO COMPLETO</a>
+            </div>
+        </div>
+    </div>
+</div>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/button-up.js"></script>
     <script src="js/show-date.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/easeScrollActivator.js"></script>
+    <script src="js/lightbox.js"></script>
     <script>
         AOS.init({
           duration: 1000,
