@@ -417,6 +417,7 @@ footer .rrss a:nth-child(2):before {
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 
 .lightbox-info h3 {
@@ -605,7 +606,7 @@ header nav #card-menu {
         text-align: center;
     }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px), screen and (min-width: 900px) and (orientation: landscape) {
     .lightbox-content {
         flex-direction: row; /* Cambiamos a fila horizontal */
         align-items: stretch;
