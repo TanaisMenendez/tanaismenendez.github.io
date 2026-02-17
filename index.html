@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index-design.css">
+    <link rel="stylesheet" href="css/index-design.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/menu.js"></script>
@@ -86,7 +86,7 @@
         <section id="portfolio" style="overflow-x: hidden">
                 <div id="latest-videos">
                     <div data-aos="fade" class="video">
-                        <a href="freediving-faro-del-caballo" data-youtube-id="oEdGdQXxo8A" data-desc="">
+                        <a href="freediving-faro-del-caballo" data-youtube-id="oEdGdQXxo8A" data-desc="Desde que visité el Faro del Caballo, en Santoña (Cantabria), siempre me quedé con las ganas de bajar el neopreno y el resto del equipo para bucear por esas aguas turquesas[...]">
                             <div class="element-text">
                                 <h4>FREEDIVING | FARO DEL CABALLO</h4>
                             </div>
@@ -96,7 +96,7 @@
                         </a>
                     </div>
                     <div data-aos="fade" class="video">
-                        <a href="pumptrack-session">
+                        <a href="pumptrack-session" data-youtube-id="BOP920lelHU" data-desc="Hace tiempo que no subo contenido de bici (y pensar que todo esto empezó con unos chavales grabando sus primeros saltos con la MTB 😁), así que os dejo por aquí una edit ca[...]">
                             <div class="element-text">
                                 <h4>MTB | PUMPTRACK SESSION</h4>
                             </div>
@@ -106,7 +106,7 @@
                         </a>
                     </div>
                     <div data-aos="fade" class="video">
-                        <a href="atardecer-en-cabrones">
+                        <a href="atardecer-en-cabrones" data-youtube-id="3jtQLTOB1fA" data-desc="Este es un vídeo algo diferente al resto… pero, te hago una pregunta: ¿hace cuanto que no te paras unos minutos a contemplar a tu alrededor?[...]">
                             <div class="element-text">
                                 <h4>PICOS DE EUROPA | ATARDECER EN JOU DE LOS CABRONES</h4>
                             </div>
@@ -116,7 +116,8 @@
                         </a>
                     </div>                     
                     <div data-aos="fade" class="video">
-                        <a href="malaga-almeria-travel-video">
+                        <a href="malaga-almeria-travel-video" data-youtube-id="l_6pdki1XF0" data-desc="¿Quién diría que una escapada a Málaga y Almería iba a dar tanto de sí? 😁
+                        Desde las costas salvajes de Cabo de Gata, hasta los parajes desérticos de Tabernas, pasando por[...]">
                             <div class="element-text">
                                 <h4>MÁLAGA & ALMERÍA - TRAVEL VIDEO</h4>
                             </div>
@@ -126,7 +127,7 @@
                         </a>
                     </div>                  
                     <div data-aos="fade" class="video">
-                        <a href="the-lost-grateful-years">
+                        <a href="the-lost-grateful-years" data-youtube-id="ny2Z-8XPEdE" data-desc="Pensaba titular a este video 'Los Años Perdidos', al fin y al cabo... todos nos sentimos perdidos en algún momento de nuestra vida. Y durante estos años, he dejado de [...]">
                             <div class="element-text">
                                 <h4>THE LOST/GRATEFUL YEARS</h4>
                             </div>
@@ -136,7 +137,7 @@
                         </a>
                     </div>
                     <div data-aos="fade" class="video">
-                        <a href="resurrection-fest-2025">
+                        <a href="resurrection-fest-2025" data-youtube-id="rDucRML8zuo" data-desc="Y otro año más (¡y ya van 4!) que cumplimos con nuestra visita al Resurrection Fest en Viveiro, un lugar que ya es punto de encuentro para nosotros y unos días es los que[...]">
                             <div class="element-text">
                                 <h4>RESURRECTION FEST 2025</h4>
                             </div>
@@ -188,19 +189,26 @@
         <p>TANAIS MENÉNDEZ FILMMAKER <span id="dateDivy"></span></p>	
     </footer>
     <div id="video-lightbox" class="lightbox-overlay">
-    <div class="lightbox-container">
-        <div class="lightbox-close" onclick="closeLightbox()">&times;</div>
-        
-        <div class="lightbox-content">
-            <div class="lightbox-video-wrapper">
-                <iframe id="lb-iframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            
-            <div class="lightbox-info">
-                <h3 id="lb-title">TÍTULO DEL VIDEO</h3>
-                <p id="lb-desc">Aquí aparecerá la descripción del video. Puedes personalizar este texto para cada proyecto.</p>
-                <a id="lb-link" href="#" class="lightbox-btn">VER PROYECTO COMPLETO</a>
-            </div>
+        <div class="lightbox-container">
+            <div class="lightbox-close" onclick="closeLightbox()">&times;</div>
+
+            <div class="lightbox-content">
+                <div class="lightbox-video-wrapper">
+                    <iframe id="lb-iframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
+                <div class="lightbox-info">
+                    <h3 id="lb-title">TÍTULO</h3>
+                    <p id="lb-desc">Descripción...</p>
+                    
+                    <div class="lightbox-controls">
+                        <div class="lb-arrow" onclick="changeVideo(-1)">&#10094;</div>
+                        
+                        <a id="lb-link" href="#" class="lightbox-btn">VER PROYECTO COMPLETO</a>
+                        
+                        <div class="lb-arrow" onclick="changeVideo(1)">&#10095;</div>
+                    </div>
+                </div>
         </div>
     </div>
 </div>

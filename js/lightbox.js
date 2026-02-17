@@ -1,66 +1,104 @@
-    /* --- SCRIPT VIGILANTE DE GALERÍA --- */
-    
-    // 1. Escuchamos TODOS los clics de la página
-    document.addEventListener('click', function(e) {
-        // Buscamos si lo que se clicó está dentro de un enlace de video
-        // ( .video a ) significa: cualquier enlace <a> dentro de una clase .video
-        const link = e.target.closest('.video a');
+    let playlist = [];
+    let currentIndex = 0;
+    let touchStartX = 0; let touchEndX = 0;
+    let isAnimating = false;
+    let containers = [];
 
-        // Si encontramos un enlace de video...
-        if (link) {
-            // IMPORTANTE: Verificamos si tiene ID de YouTube
-            const videoID = link.getAttribute('data-youtube-id');
-            
-            if (videoID) {
-                // Si tiene ID, es un video para el Lightbox. ¡DETENEMOS LA NAVEGACIÓN!
-                e.preventDefault();
-                openLightbox(link, videoID);
-            }
-            // Si NO tiene ID (videoID es null), dejamos que el enlace funcione normal 
-            // y vaya a la página individual.
+    document.addEventListener('DOMContentLoaded', () => {
+        playlist = document.querySelectorAll('.video a[data-youtube-id]');
+
+        const original = document.querySelector('.lightbox-container');
+        const clone = original.cloneNode(true);
+        document.getElementById('video-lightbox').appendChild(clone);
+
+        containers = [original, clone];
+        original.classList.add('lc-active');
+
+        setupContainerEvents(original);
+        setupContainerEvents(clone);
+    });
+
+    function setupContainerEvents(container) {
+        container.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+        container.addEventListener('click', (e) => { e.stopPropagation(); });
+    }
+
+    document.addEventListener('click', function(e) {
+        const link = e.target.closest('.video a');
+        if (link && link.getAttribute('data-youtube-id')) {
+            e.preventDefault();
+            currentIndex = Array.from(playlist).indexOf(link);
+            openLightbox(currentIndex);
         }
     });
 
-    // 2. Función que abre la ventana (Más sencilla ahora)
-    function openLightbox(element, id) {
-        const lightbox = document.getElementById('video-lightbox');
-        const iframe = document.getElementById('lb-iframe');
-        const titleEl = document.getElementById('lb-title');
-        const descEl = document.getElementById('lb-desc');
-        const linkEl = document.getElementById('lb-link');
-
-        // Datos
-        const title = element.querySelector('h4').innerText;
-        const pageLink = element.getAttribute('href');
-        const description = element.getAttribute('data-desc') || "Disfruta de este proyecto audiovisual.";
-
-        // Rellenar
-        iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0&vq=hd1080&modestbranding=1";
-        titleEl.innerText = title;
-        descEl.innerText = description;
-        linkEl.href = pageLink;
-
-        // Mostrar
-        lightbox.classList.add('active');
-        document.body.style.overflow = 'hidden'; // Bloquear scroll
+    function loadContent(container, index) {
+        if (index < 0 || index >= playlist.length) return;
+        const element = playlist[index];
+        container.querySelector('#lb-title').innerText = element.querySelector('h4').innerText;
+        container.querySelector('#lb-desc').innerText = element.getAttribute('data-desc') || "";
+        container.querySelector('#lb-link').href = element.getAttribute('href');
+        container.querySelector('#lb-iframe').src = "https://www.youtube.com/embed/" + element.getAttribute('data-youtube-id') + "?autoplay=1&rel=0&vq=hd1080&modestbranding=1";
     }
 
-    // 3. Función para cerrar
+    function openLightbox(index) {
+        const activeContainer = document.querySelector('.lightbox-container.lc-active');
+        loadContent(activeContainer, index);
+        document.getElementById('video-lightbox').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function changeVideo(direction) {
+        if (isAnimating) return;
+        isAnimating = true;
+
+        let newIndex = currentIndex + direction;
+        if (newIndex >= playlist.length) newIndex = 0;
+        if (newIndex < 0) newIndex = playlist.length - 1;
+        currentIndex = newIndex;
+
+        const current = document.querySelector('.lightbox-container.lc-active');
+        const next = containers.find(c => c !== current);
+
+        loadContent(next, currentIndex);
+
+        next.classList.add(direction === 1 ? 'set-pos-right' : 'set-pos-left');
+        void next.offsetWidth;
+        next.classList.remove('set-pos-right', 'set-pos-left');
+
+        current.classList.add(direction === 1 ? 'anim-out-left' : 'anim-out-right');
+        current.classList.remove('lc-active');
+
+        next.classList.add('lc-active');
+
+        setTimeout(() => {
+            current.querySelector('#lb-iframe').src = "";
+            current.classList.remove('anim-out-left', 'anim-out-right');
+            isAnimating = false;
+        }, 600);
+    }
+
     function closeLightbox() {
         const lightbox = document.getElementById('video-lightbox');
-        const iframe = document.getElementById('lb-iframe');
-        
         lightbox.classList.remove('active');
-        
-        // Retraso para vaciar el video y que deje de sonar
-        setTimeout(() => { iframe.src = ""; }, 300);
+        setTimeout(() => {
+            containers.forEach(c => c.querySelector('#lb-iframe').src = "");
+        }, 300);
         document.body.style.overflow = 'auto';
     }
 
-    // Cerrar con la X
-    // (Asegúrate de que tu HTML del lightbox tiene <div class="lightbox-close" onclick="closeLightbox()">)
-    
-    // Cerrar clicando fuera
-    document.getElementById('video-lightbox').addEventListener('click', function(e) {
-        if (e.target === this) { closeLightbox(); }
+    document.getElementById('video-lightbox').addEventListener('click', closeLightbox);
+
+    document.addEventListener('keydown', function(e) {
+        if (!document.getElementById('video-lightbox').classList.contains('active')) return;
+        if (e.key === "ArrowRight") changeVideo(1);
+        if (e.key === "ArrowLeft") changeVideo(-1);
+        if (e.key === "Escape") closeLightbox();
     });
+
+    document.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, {passive: true});
+    document.addEventListener('touchend', (e) => {
+        if (!document.getElementById('video-lightbox').classList.contains('active')) return;
+        touchEndX = e.changedTouches[0].screenX;
+        if (Math.abs(touchStartX - touchEndX) > 50) changeVideo(touchStartX > touchEndX ? 1 : -1);
+    }, {passive: true});
