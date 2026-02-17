@@ -1,20 +1,27 @@
-<script>
-    /* --- SCRIPT INTELIGENTE DE GALERÍA (AUTO-FETCH) --- */
+    /* --- SCRIPT VIGILANTE DE GALERÍA --- */
     
+    // 1. Escuchamos TODOS los clics de la página
     document.addEventListener('click', function(e) {
+        // Buscamos si lo que se clicó está dentro de un enlace de video
+        // ( .video a ) significa: cualquier enlace <a> dentro de una clase .video
         const link = e.target.closest('.video a');
 
+        // Si encontramos un enlace de video...
         if (link) {
+            // IMPORTANTE: Verificamos si tiene ID de YouTube
             const videoID = link.getAttribute('data-youtube-id');
             
-            // Si tiene ID, activamos el Lightbox
             if (videoID) {
+                // Si tiene ID, es un video para el Lightbox. ¡DETENEMOS LA NAVEGACIÓN!
                 e.preventDefault();
                 openLightbox(link, videoID);
             }
+            // Si NO tiene ID (videoID es null), dejamos que el enlace funcione normal 
+            // y vaya a la página individual.
         }
     });
 
+    // 2. Función que abre la ventana (Más sencilla ahora)
     function openLightbox(element, id) {
         const lightbox = document.getElementById('video-lightbox');
         const iframe = document.getElementById('lb-iframe');
@@ -22,74 +29,38 @@
         const descEl = document.getElementById('lb-desc');
         const linkEl = document.getElementById('lb-link');
 
-        // 1. Datos básicos (inmediatos)
+        // Datos
         const title = element.querySelector('h4').innerText;
         const pageLink = element.getAttribute('href');
-        
-        // Ponemos un texto temporal de carga
-        descEl.innerText = "Cargando detalles del proyecto...";
-        descEl.style.opacity = "0.5"; // Efecto visual de carga
+        const description = element.getAttribute('data-desc') || "Disfruta de este proyecto audiovisual.";
 
-        // 2. Rellenar Lightbox
+        // Rellenar
         iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0&vq=hd1080&modestbranding=1";
         titleEl.innerText = title;
+        descEl.innerText = description;
         linkEl.href = pageLink;
 
-        // 3. LA MAGIA: Fetch (Ir a buscar el texto a la otra página)
-        fetch(pageLink)
-            .then(response => {
-                // Si la página existe, dame el texto
-                if (response.ok) return response.text();
-                throw new Error('Error al cargar');
-            })
-            .then(html => {
-                // Convertimos el texto HTML en un documento leíble
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-
-                // A) Intentamos leer la META DESCRIPTION (Lo ideal para SEO y resúmenes)
-                let summary = doc.querySelector('meta[name="description"]')?.content;
-
-                // B) Si no hay meta, buscamos el primer párrafo <p> del contenido
-                if (!summary) {
-                    // Ajusta 'p' si tu texto está en otra etiqueta específica
-                    const firstParagraph = doc.querySelector('p'); 
-                    if (firstParagraph) summary = firstParagraph.innerText;
-                }
-
-                // C) Limpieza y Recorte
-                if (summary) {
-                    // Si es muy largo (más de 250 caracteres), lo cortamos
-                    if (summary.length > 250) {
-                        summary = summary.substring(0, 250).trim() + "...";
-                    }
-                    descEl.innerText = summary;
-                } else {
-                    descEl.innerText = "Disfruta de este proyecto audiovisual.";
-                }
-            })
-            .catch(error => {
-                console.log("No se pudo extraer la descripción automáticamente", error);
-                descEl.innerText = "Haz clic en el botón para ver todos los detalles del proyecto.";
-            })
-            .finally(() => {
-                descEl.style.opacity = "1"; // Quitamos efecto carga
-            });
-
-        // 4. Mostrar
+        // Mostrar
         lightbox.classList.add('active');
-        document.body.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden'; // Bloquear scroll
     }
 
+    // 3. Función para cerrar
     function closeLightbox() {
         const lightbox = document.getElementById('video-lightbox');
         const iframe = document.getElementById('lb-iframe');
+        
         lightbox.classList.remove('active');
+        
+        // Retraso para vaciar el video y que deje de sonar
         setTimeout(() => { iframe.src = ""; }, 300);
         document.body.style.overflow = 'auto';
     }
 
+    // Cerrar con la X
+    // (Asegúrate de que tu HTML del lightbox tiene <div class="lightbox-close" onclick="closeLightbox()">)
+    
+    // Cerrar clicando fuera
     document.getElementById('video-lightbox').addEventListener('click', function(e) {
         if (e.target === this) { closeLightbox(); }
     });
-</script>
