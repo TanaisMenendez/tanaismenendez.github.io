@@ -24,7 +24,7 @@ jobs:
         python-version: '3.9'
 
     - name: Ejecutar script de construcción
-      run: python build_portfolio.py
+      run: python build.py
 
     - name: Guardar cambios (Commit & Push)
       run: |
