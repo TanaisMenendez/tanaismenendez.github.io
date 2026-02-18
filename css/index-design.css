@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--bg-color);
     color: var(--text-color);
@@ -22,6 +26,7 @@ body {
     line-height: 1.7;
     position: relative;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
 }
 
 h3 {
@@ -51,9 +56,17 @@ ul {
     list-style: none;
 }
 
-img {
+img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
 }
 
 header {
@@ -155,7 +168,6 @@ header nav #card-menu ul li a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    transition: opacity 0.3s;
     font-size: 20px;
 }
 
@@ -174,14 +186,11 @@ header nav #card-menu ul li.social-icons {
     margin: 10px 15px;
 }
 
-#instagram:before {
-    content: "\ea92";
-    font-family: 'icomoon';
-}
-
-#youtube:before {
-    content: "\ea9d";
-    font-family: 'icomoon';
+header nav #card-menu ul li a.icon-svg {
+    display: inline-flex; 
+    align-items: center;
+    border: none;
+    padding: 5px;
 }
 
 #home {
@@ -242,6 +251,13 @@ header nav #card-menu ul li.social-icons {
     letter-spacing: 2px;
     text-align: center;
     min-width: 160px;
+    background: transparent;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.home-buttom:hover {
+    background: white;
+    color: black;
 }
 
 #portfolio {
@@ -305,6 +321,11 @@ header nav #card-menu ul li.social-icons {
     letter-spacing: 4px;
     display: inline-block;
     cursor: pointer;
+    transition: 0.4s;
+}
+.portfolio-buttom:hover {
+    background: white;
+    color: black;
 }
 
 #about {
@@ -366,27 +387,32 @@ footer {
 }
 
 footer .rrss {
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
 footer .rrss a {
-    font-size: 25px;
-    margin: 0 10px;
     color: var(--accent-color);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0;
 }
 
 footer .rrss a:hover {
     color: white;
+    transform: scale(1.1);
 }
 
-footer .rrss a:nth-child(1):before {
-    content: "\ea92";
-    font-family: 'icomoon';
-}
 
-footer .rrss a:nth-child(2):before {
-    content: "\ea9d";
-    font-family: 'icomoon';
+footer .rrss a svg {
+    width: 26px;
+    height: 26px;
 }
 
 #button-up {
@@ -405,9 +431,22 @@ footer .rrss a:nth-child(2):before {
     cursor: pointer;
 }
 
-.icon-angle-up {
-    font-size: 20px;
-    color: var(--accent-color);
+#button-up svg {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-svg svg, 
+#button-up svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+}
+
+#button-up:hover {
+    background: white;
+    color: black;
 }
 
 @keyframes pulse {

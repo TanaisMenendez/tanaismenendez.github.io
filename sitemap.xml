@@ -1,525 +1,617 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
-             https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>https://tanaismenendez.es/</loc>
-  <lastmod>2026-02-11T21:38:35+01:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/portfolio</loc>
-  <lastmod>2026-02-11T21:38:35+01:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freediving-faro-del-caballo</loc>
-  <lastmod>2026-02-11T21:38:35+01:00</lastmod>
-  <priority>0.80</priority>
-</url>
-  <loc>https://tanaismenendez.es/pumptrack-session</loc>
-  <lastmod>2026-01-19T20:50:49+01:00</lastmod>
-  <priority>0.80</priority>
-</url>
-  <loc>https://tanaismenendez.es/atardecer-en-cabrones</loc>
-  <lastmod>2026-01-08T00:01:39+01:00</lastmod>
-  <priority>0.80</priority>
-</url>
-  <loc>https://tanaismenendez.es/malaga-almeria-travel-video</loc>
-  <lastmod>2025-12-16T20:39:00+01:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/the-lost-grateful-years</loc>
-  <lastmod>2025-11-04T17:20:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/resurrection-fest-2025</loc>
-  <lastmod>2025-11-04T17:20:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/la-sacagüeyos-2023</loc>
-  <lastmod>2023-08-17T00:25:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/trip-semana-santa-2023</loc>
-  <lastmod>2023-03-07T18:14:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/the-b-side-fpv-edit</loc>
-  <lastmod>2023-03-07T18:40:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/dreamy-freedive</loc>
-  <lastmod>2023-01-29T13:12:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/best-of-2022</loc>
-  <lastmod>2022-12-25T11:48:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/pico-de-los-cabrones</loc>
-  <lastmod>2022-08-18T12:07:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/resurrection-fest-2022</loc>
-  <lastmod>2022-07-12T13:51:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/travesera-2022-horcada-cain</loc>
-  <lastmod>2022-06-22T18:36:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/pegaso-race-luarca-ocr-2022</loc>
-  <lastmod>2022-05-30T10:38:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/escalada-las-llucias-el-llano</loc>
-  <lastmod>2022-04-25T21:46:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/escalada-manzaneda</loc>
-  <lastmod>2022-04-25T21:46:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-spirit-reel-2020-2021</loc>
-  <lastmod>2022-04-25T10:46:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/cimadevilla-bmx-session</loc>
-  <lastmod>2021-01-30T14:20:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/colunga-freeride-sessions</loc>
-  <lastmod>2020-11-07T12:20:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/buceo-ribeira</loc>
-  <lastmod>2020-08-26T16:21:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/buceo-cabo-peñas</loc>
-  <lastmod>2020-07-23T12:04:45+09:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/this-is-freeride-spirit</loc>
-  <lastmod>2020-07-07T12:23:49+09:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/this-is-freeride-spirit</loc>
-  <lastmod>2020-07-07T12:23:49+09:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/beneath-the-sea-2-malta</loc>
-  <lastmod>2019-12-15T19:47:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/galifornia-dreamin</loc>
-  <lastmod>2019-11-24T21:38:09+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/ribadeo-lo-que-la-ria-esconde</loc>
-  <lastmod>2019-06-09T21:14:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/natos-y-waor-piratas</loc>
-  <lastmod>2019-06-09T16:39:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/ana-perez-video-portrait</loc>
-  <lastmod>2019-05-18T20:45:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/best-of-2018</loc>
-  <lastmod>2019-01-06T20:03:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-is-not-dead</loc>
-  <lastmod>2019-01-06T20:03:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-trip</loc>
-  <lastmod>2018-11-05T18:30:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/highlights-summer-2018</loc>
-  <lastmod>2018-10-02T16:21:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-pista-finlandesa-oviedo</loc>
-  <lastmod>2018-05-24T16:19:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/4-days-in-edinburgh</loc>
-  <lastmod>2018-05-24T16:19:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/specialized-enduro-team</loc>
-  <lastmod>2018-05-24T16:19:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/belen-sub-ribadeo-2017</loc>
-  <lastmod>2018-05-24T16:19:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/best-of-2017</loc>
-  <lastmod>2018-05-24T16:19:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/timelapse-journey</loc>
-  <lastmod>2018-05-24T16:19:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/senarda-ecos-de-una-tierra-obrera</loc>
-  <lastmod>2018-05-24T16:19:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/quedada-langreo-trail</loc>
-  <lastmod>2018-05-24T16:19:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/best-of-2016</loc>
-  <lastmod>2018-05-24T16:19:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-memories</loc>
-  <lastmod>2018-05-24T16:19:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-vigo</loc>
-  <lastmod>2018-05-24T16:19:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/shuffle-hope-restored</loc>
-  <lastmod>2018-05-24T16:19:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/best-of-2015</loc>
-  <lastmod>2018-05-24T16:19:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-lightning-ride</loc>
-  <lastmod>2018-05-24T16:19:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/highlights-summer-2015</loc>
-  <lastmod>2018-05-24T16:19:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/attrition</loc>
-  <lastmod>2018-05-24T16:19:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/morning-shuffle-practice</loc>
-  <lastmod>2018-05-24T16:19:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/beneath-the-sea</loc>
-  <lastmod>2018-05-24T16:19:26+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-slow-motion</loc>
-  <lastmod>2018-05-24T16:19:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/alejandro-caldevilla-simulacion</loc>
-  <lastmod>2018-05-24T16:19:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/dolphins-race</loc>
-  <lastmod>2018-05-24T16:19:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/end-of-year-2014</loc>
-  <lastmod>2018-05-24T16:19:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/cellon</loc>
-  <lastmod>2018-05-24T16:19:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/enduro-chronicles</loc>
-  <lastmod>2018-05-24T16:19:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/lost-in-shuffle</loc>
-  <lastmod>2018-05-24T16:19:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/el-conjuro-downhill</loc>
-  <lastmod>2018-05-24T16:19:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/alejandro-caldevilla-da2-shop</loc>
-  <lastmod>2018-05-24T16:19:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/shuffle-one-year</loc>
-  <lastmod>2018-05-24T16:19:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-way-back</loc>
-  <lastmod>2018-05-24T16:19:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/nitrogenic-shuffle</loc>
-  <lastmod>2018-05-24T16:19:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/night-enduro</loc>
-  <lastmod>2018-05-24T16:19:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/enduro-cocanin</loc>
-  <lastmod>2018-05-24T16:19:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/enduroastur-tuna</loc>
-  <lastmod>2018-05-24T16:19:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/promo-enduroastur</loc>
-  <lastmod>2018-05-24T16:19:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/cannondale-big-ride-cercedilla</loc>
-  <lastmod>2018-05-24T16:19:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/enduroastur-monte-naranco</loc>
-  <lastmod>2018-05-24T16:19:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/downhill-lastres</loc>
-  <lastmod>2018-05-24T16:19:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/enduroastur-deva</loc>
-  <lastmod>2018-05-24T16:19:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/downhill-deva</loc>
-  <lastmod>2018-05-24T16:19:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/enduroastur-el-entrego</loc>
-  <lastmod>2018-05-24T16:19:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/downhill-andorra</loc>
-  <lastmod>2018-05-24T16:19:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/progression-bike-2</loc>
-  <lastmod>2018-05-24T16:19:47+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/progression-bike-2-teaser</loc>
-  <lastmod>2018-05-24T16:19:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/run-down-the-hills</loc>
-  <lastmod>2018-05-24T16:19:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/da2shop-contest</loc>
-  <lastmod>2018-05-24T16:19:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-halloween-day</loc>
-  <lastmod>2018-05-24T16:19:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/bmx-dark-anthem</loc>
-  <lastmod>2018-05-24T16:19:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/tanais-da2shop-promo</loc>
-  <lastmod>2018-05-24T16:19:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/all-bike-games-2010</loc>
-  <lastmod>2018-05-24T16:19:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/broken-rider</loc>
-  <lastmod>2018-05-24T16:19:30+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/downhill-ride-fast</loc>
-  <lastmod>2018-05-24T16:19:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/patria-freerider</loc>
-  <lastmod>2018-05-24T16:19:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/versatility</loc>
-  <lastmod>2018-05-24T16:19:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-photo-session-2009</loc>
-  <lastmod>2018-05-24T16:19:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/alerta-felguera</loc>
-  <lastmod>2018-05-24T16:19:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/deva-downhill</loc>
-  <lastmod>2018-05-24T16:19:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-day</loc>
-  <lastmod>2018-05-24T16:19:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-photo-session-2008</loc>
-  <lastmod>2018-05-24T16:19:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/downhill-ride-the-lightning</loc>
-  <lastmod>2018-05-24T16:19:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-summer-memories</loc>
-  <lastmod>2018-05-24T16:19:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/mtb-some-kind-of-riding</loc>
-  <lastmod>2018-05-24T16:19:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/urban-freeride-compulsory-insurance</loc>
-  <lastmod>2018-05-24T16:19:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-making-of-jungle-bikepark</loc>
-  <lastmod>2018-05-24T16:19:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/tai-jitsu-exhibicion</loc>
-  <lastmod>2018-05-24T16:19:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeriding-in-the-jungle-bikepark</loc>
-  <lastmod>2018-05-24T16:19:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/freeride-photo-session-2007</loc>
-  <lastmod>2018-05-24T16:19:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/progression-bike</loc>
-  <lastmod>2018-05-24T16:19:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/progression-bike-teaser-2</loc>
-  <lastmod>2018-05-24T16:19:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tanaismenendez.es/progression-bike-teaser-1</loc>
-  <lastmod>2018-05-24T16:19:47+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
+  <url>
+    <loc>https://tanaismenendez.es/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://tanaismenendez.es/portfolio</loc>
+    <lastmod>2026-02-18</lastmod>
+    <priority>0.8</priority>
+
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freediving-faro-del-caballo.jpg</video:thumbnail_loc>
+      <video:title>FREEDIVING | FARO DEL CABALLO</video:title>
+      <video:description>Desde que visité el Faro del Caballo, en Santoña (Cantabria), siempre me quedé con las ganas de bajar el neopreno y el resto del equipo para bucear por esas agu...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/oEdGdQXxo8A</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/pumptrack-session.jpg</video:thumbnail_loc>
+      <video:title>MTB | PUMPTRACK SESSION</video:title>
+      <video:description>Hace tiempo que no subo contenido de bici (y pensar que todo esto empezó con unos chavales grabando sus primeros saltos con la MTB 😁), así que os dejo por aquí...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/BOP920lelHU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/atardecer-en-cabrones.jpg</video:thumbnail_loc>
+      <video:title>PICOS DE EUROPA | ATARDECER EN JOU DE LOS CABRONES</video:title>
+      <video:description>Este es un vídeo algo diferente al resto… pero, te hago una pregunta: ¿hace cuanto que no te paras unos minutos a contemplar a tu alrededor?                    ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/3jtQLTOB1fA</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/malaga-almeria-travel-video.jpg</video:thumbnail_loc>
+      <video:title>MÁLAGA &amp; ALMERÍA - TRAVEL VIDEO</video:title>
+      <video:description>¿Quién diría que una escapada a Málaga y Almería iba a dar tanto de sí? 😁 Desde las costas salvajes de Cabo de Gata, hasta los parajes desérticos de Tabernas, ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/l_6pdki1XF0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/the-lost-grateful-years.jpg</video:thumbnail_loc>
+      <video:title>THE LOST/GRATEFUL YEARS</video:title>
+      <video:description>Pensaba titular a este video "Los Años Perdidos", al fin y al cabo... todos nos sentimos perdidos en algún momento de nuestra vida. Y durante estos años, he dej...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ny2Z-8XPEdE</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/resurrection-fest-2025.jpg</video:thumbnail_loc>
+      <video:title>RESURRECTION FEST 2025</video:title>
+      <video:description>Y otro año más (¡y ya van 4!) que cumplimos con nuestra visita al Resurrection Fest en Viveiro, un lugar que ya es punto de encuentro para nosotros y unos días ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/rDucRML8zuo</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/la-sacagueyos-2023.jpg</video:thumbnail_loc>
+      <video:title>LA SACAGÜEYOS 2023</video:title>
+      <video:description>Este año La Sacagüeyos ha querido contar con nosotros para hacer el vídeo oficial de la edición del 2023 y nosotros aceptamos encantados el reto que supuso cubr...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/iHfH7b-h1fk</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/semana-santa-2023.jpg</video:thumbnail_loc>
+      <video:title>TRIP | SEMANA SANTA 2023</video:title>
+      <video:description>Visitar de nuevo un lugar donde he pasado tantos años y he vivido tantos momentos siempre es bien. Durante casi dos años las Rías Baixas de Galicia han sido mi ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/PJdtxkrL5Y4</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/the-b-side-fpv-edit.jpg</video:thumbnail_loc>
+      <video:title>THE B-SIDE FPV EDIT</video:title>
+      <video:description>Edición alternativa de parte del metraje utilizado para una campaña de Hunosa y el ayuntamiento de San Martín del Rey Aurelio de cara al Trail Santa Bárbara del...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/FDl-hOdDu4c</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/dreamy-freedive.jpg</video:thumbnail_loc>
+      <video:title>TANAIS MENENDEZ | DREAMY FREEDIVE</video:title>
+      <video:description>Aunque fuera finales de octubre, la mar estaba perfecta, tenía que ponerme el neopreno y recorrer esta cala "secreta" 😄                      Es un lugar que pa...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/JfbM1gqr16k</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/best-of-2022.jpg</video:thumbnail_loc>
+      <video:title>TANAIS MENENDEZ | BEST OF 2022</video:title>
+      <video:description>Será verdad que a partir de cierto momento (algunos dicen que son los 30 😅) los años pasan muy rápido, creo que el 2022 fue el año en el que realmente me di cu...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/PIocotXPE9U</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/pico-de-los-cabrones.jpg</video:thumbnail_loc>
+      <video:title>PICO DE LOS CABRONES | ARISTA NOROESTE</video:title>
+      <video:description>I though about you,                     I thought about me,                     And us,                     And if we could turn back time…                     ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/PvQpiiikjos</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/resurrection-fest-2022.jpg</video:thumbnail_loc>
+      <video:title>RESURRECTION FEST 2022</video:title>
+      <video:description>𝘞𝘦'𝘳𝘦 𝘢𝘭𝘪𝘷𝘦, 𝘸𝘦 𝘣𝘦𝘭𝘪𝘦𝘷𝘦                     T𝘩𝘢𝘵 𝘴𝘶𝘮𝘮𝘦𝘳𝘵𝘪𝘮𝘦 𝘮𝘦𝘮𝘰𝘳𝘪𝘦𝘴                     𝘞𝘪𝘭𝘭 𝘯𝘦𝘷𝘦𝘳 𝘧𝘢𝘥𝘦 𝘢�...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/XmzQ35UsR0U</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/travesera-2022-horcada-cain.jpg</video:thumbnail_loc>
+      <video:title>TRAIL RUNNING | TRAVESERA PICOS DE EUROPA 2022</video:title>
+      <video:description>Viernes 10 de junio, mi amigo Carlos Carreño y yo tomamos nuestras mochilas cargadas de equipo de foto y video y emprendemos camino hacia Vega Uriellu con objet...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/p_lXds_vnTM</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/pegaso-race-ocr-luarca-2022.jpg</video:thumbnail_loc>
+      <video:title>OCR | PEGASO RACE LUARCA 2022</video:title>
+      <video:description>- ¿Te apuntas a una carrera de obstáculos?                     La pregunta que dio comienzo a un día de locura, creo que todavía tengo algo de arena, barro y sa...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/cUu6umOUDnE</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/escalada-las-llucias-el-llano.jpg</video:thumbnail_loc>
+      <video:title>ESCALADA | LAS LLUCIAS Y EL LLANO</video:title>
+      <video:description>Semana Santa de escalada muy productiva con familia y amigos en las escuelas de escalada de las Llucias y El Llano....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/eKh3rCSf9pI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/escalada-en-manzaneda.jpg</video:thumbnail_loc>
+      <video:title>ESCALADA | MANZANEDA</video:title>
+      <video:description>Resumen express de una mañana de escalada del pasado mes de enero, empezamos el año con vuelo!!...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/sWEj8XGPQmI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-reel-2020-2021.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE SPIRIT | REEL 2020-2021</video:title>
+      <video:description>+ Dos años en un minuto? Que poco hiciste, no?                          - Mmm, podemos decir que he vivido poco y a la vez mucho, ya sabes, por aquí solo tendem...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/aj3qMgRfOpU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/cimadevilla-bmx-session.jpg</video:thumbnail_loc>
+      <video:title>CIMADEVILLA BMX SESSION</video:title>
+      <video:description>Edit del pasado verano de una pequeña ronda en el skatepark de Cimadevilla, Gijón....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/RCQkMmZxZWA</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/colunga-freeride-sessions.jpg</video:thumbnail_loc>
+      <video:title>MTB | FREERIDE SESSIONS</video:title>
+      <video:description>Un día de Freeride con amigos en unos de los spots más brutales de Colunga. Gracias a los riders locales por todo el curro que se han metido para tener un lugar...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Ms1g2DKlQzU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/buceo-ribeira.jpg</video:thumbnail_loc>
+      <video:title>RIBEIRA | A SCUBA DIVING TRIP</video:title>
+      <video:description>Vídeo resumen de uno de nuestros viajes de buceo organizados por el club Cronos Sub. 4 inmersiones repartidas en dos días para re-descubrir los fondos de la ría...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/bAtK2cbgttA</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/buceo-cabo-pe%C3%B1as.jpg</video:thumbnail_loc>
+      <video:title>BUCEO | CABO PEÑAS</video:title>
+      <video:description>El cabo de Peñas es la zona de referencia en el buceo en Asturias, es una zona expuesta a fuertes corrientes y colmada de farallones de roca que está llena de r...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/h5qEvNu0NdY</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/this-is-freeride-spirit.jpg</video:thumbnail_loc>
+      <video:title>THIS IS FREERIDE SPIRIT</video:title>
+      <video:description>14 años de Tanais Menéndez Filmmaker no se pueden resumir en un vídeo tan corto, pero si que podemos elegir los mejores momentos de los últimos años, ¡¡BIENVENI...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/PwXbFre4xQI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/beneath-the-sea-2-malta.jpg</video:thumbnail_loc>
+      <video:title>BENEATH THE SEA II | MALTA</video:title>
+      <video:description>Vídeo de buceo en Malta, todo un paraíso para los buceadores! Durante la primera semana de octubre algunos miembros del club Cronos-sub estuvimos buceando en lo...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/M03k45fJPD0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/galifornia-dreamin.jpg</video:thumbnail_loc>
+      <video:title>GALIFORNIA DREAMIN'</video:title>
+      <video:description>La ría de Arousa es un lugar que me enamoró desde la primera vez que la visité en 2016. Sus playas de arena blanca, sus aguas turquesas y la capacidad de contem...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/A3RTbmvVbEI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/ribadeo-lo-que-la-ria-esconde.jpg</video:thumbnail_loc>
+      <video:title>RIBADEO | LO QUE LA RÍA ESCONDE</video:title>
+      <video:description>Documental de arqueología subacuática localizado en la ría de Ribadeo, donde se pueden encontrar restos hundidos que narran historias de tiempos pasados. A lo l...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/sIvJleaei38</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/natos-y-waor-piratas.jpg</video:thumbnail_loc>
+      <video:title>NATOS Y WAOR | PIRATAS</video:title>
+      <video:description>Videoclip no oficial del tema de Natos y Waor "Piratas" de su álbum "Cicatrices". Grabado en la localidad de Salinas, Asturias.                     Modelo: Anah...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/lB1G9G8M4xw</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/ana-video-portrait.jpg</video:thumbnail_loc>
+      <video:title>VIDEO PORTRAIT | ANA PÉREZ</video:title>
+      <video:description>Con esta pequeña edición me inicio en el mundo de los video retratos, un estilo diferente a lo que suelo hacer normalmente pero que me resulta interesante por s...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/IJWb5GiTQWg</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-best-of-2018.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE SPIRIT: BEST OF 2018</video:title>
+      <video:description>Y otro año más al que decimos adiós!! Cuesta resumir los mejores momentos del año en una edición tan corta, sobre todo cuando compartes momentos tan diferentes ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/oS2UJ7XoLT4</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-is-not-dead.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE IS NOT DEAD | TANAIS MENÉNDEZ</video:title>
+      <video:description>Después de tres años sin publicar un vídeo de Freeride propio, ¡aquí lo tenéis! Quiero pensar que he mejorado algo durante estos años, aunque no todo lo que me ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/e5KwhltJY7g</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-trip.jpg</video:thumbnail_loc>
+      <video:title>BMX TRIP | PAÍS VASCO - CANTABRIA</video:title>
+      <video:description>Alejandro Caldevilla y yo montamos las bmx al coche y nos vamos a rodar en los skateparks más emblemáticos del norte de España: La Cantera y Leioa (País Vasco) ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/a1M3-pdeM1Y</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/highlights-summer-2018.jpg</video:thumbnail_loc>
+      <video:title>HIGHLIGHTS OF SUMMER 2018</video:title>
+      <video:description>Se acabó el verano de 2018 y lo único que nos queda son los recuerdos de los momentos que disfrutamos. Sol, playa, buceo, montaña y lugares emblemáticos, todos ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/67kFJkTrKSE</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/Freeride-pista-finlandesa-Oviedo.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE | PISTA FINLANDESA (OVIEDO)</video:title>
+      <video:description>Pequeña edit de una tarde de saltos en el circuito de bicicletas Prado de la Fuente, en la pista finlandesa de Oviedo (Monte Naranco).                     Rider...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/eioDOLiM550</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/4-days-in-Edinburgh.jpg</video:thumbnail_loc>
+      <video:title>4 DAYS IN EDINBURGH</video:title>
+      <video:description>4 Days in Edinburgh es un resumen de los 4 días que estuve en Edimburgo, la capital escocesa. Una ciudad que parece detenida en el tiempo, donde cada callejón t...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/g3H3JY0apgk</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/specialized-enduro-team.jpg</video:thumbnail_loc>
+      <video:title>SPECIALIZED ENDURO TEAM</video:title>
+      <video:description>Vídeo promocional de los corredores asturianos de enduro y descenso Cristian y Andrés García, que esta temporada estrenan sendas Specialized Enduro Comp bajo el...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Txn5OWqqsFU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/belen-submarino-ribadeo.jpg</video:thumbnail_loc>
+      <video:title>BELÉN SUBMARINO: RIBADEO 2017</video:title>
+      <video:description>Video resumen de la colocación del belén submarino del club de buceo Cronossub y del club de actividades subacuáticas Illa Pancha con motivo de las fiestas navi...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/lfVCrZKbYMc</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-best-of-2017.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE SPIRIT: BEST OF 2017</video:title>
+      <video:description>365 días pueden dar mucho de sí, cada día puede ser una aventura y así os lo quiero mostrar en este video recopilatorio de mis mejores momentos del año 2017. Un...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/IPbUBWw41MI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/a-timelapse-journey.jpg</video:thumbnail_loc>
+      <video:title>A TIMELAPSE JOURNEY</video:title>
+      <video:description>Muchas veces nuestra percepción del tiempo no nos permite contemplar las maravillas que se esconden en las cosas más normales de nuestro día a día, cosas como e...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/KKOE8dlq8Zk</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/senarda-ecos-de-una-tierra-obrera.jpg</video:thumbnail_loc>
+      <video:title>SEÑARDÁ: ECOS DE UNA TIERRA OBRERA</video:title>
+      <video:description>Señardá: Vivo sentimiento de nostalgia. Melancolía de un tiempo pasado.                     Asturias es una tierra de contrastes, donde el pasado se entremezcla...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/7x3Z1ll1Kyk</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/quedada-langreo-trail-team.jpg</video:thumbnail_loc>
+      <video:title>RUNNING | III QUEDADA LANGREO TRAIL TEAM</video:title>
+      <video:description>Pequeño resumen de lo que fue la tercera quedada solidaria organizada por los runners del Langreo Trail Team. Debido a un esguince de tobillo que tuve mientras ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/VLdLbYK5qS8</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-best-of-2016.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE SPIRIT: BEST OF 2016</video:title>
+      <video:description>Este es el segundo recopilatorio anual que hacemos, un poco diferente con respecto al año pasado, pero igualmente con nuestro toque. Una mezcla de diferentes de...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/OTEm5PYp5fk</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-memories.jpg</video:thumbnail_loc>
+      <video:title>BMX MEMORIES</video:title>
+      <video:description>Un vistazo casi anual a nuestros viajes de bmx a otras localidades, visitando skateparks dentro y fuera de Asturias y probando nuevos spots en nuestra ciudad. M...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Io_3P3P8IgQ</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-session-vigo.jpg</video:thumbnail_loc>
+      <video:title>BMX SESSION IN VIGO</video:title>
+      <video:description>Pequeña edit en las calles y skateparks de Vigo, Galicia, después de un año montando con los bikers locales. Vivir en Vigo fue una buena experiencia, el nivel d...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/_UfnaOGLmUE</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/shuffle-hope-restored.jpg</video:thumbnail_loc>
+      <video:title>SHUFFLE | HOPE RESTORED</video:title>
+      <video:description>Una pequeña edit de Shuffle para el "Shuffler del mes" de la comunidad Shuffle Spain. Un remake de mi primer video de shuffle usando el mismo temazo de Vicetone...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/-roBEP28eus</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-best-of-2015.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE SPIRIT: BEST OF 2015</video:title>
+      <video:description>¡Todas nuestras aventuras con GoPro en 2015 en un único video! Algo de Freeride, BMX, running, buceo y momentos con los amigos. ¡¡Espero que os guste y nos vemo...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/jFMWsqK1yDU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-lightning-ride.jpg</video:thumbnail_loc>
+      <video:title>BMX | LIGHTNING RIDE</video:title>
+      <video:description>Pequeña edit de una tarde de skatepark en Avilés. Mientras Jandro y yo hacíamos una ronda, un gran rayo cruzó el cielo, ¡por suerte lo pudimos grabar! ¡Una buen...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/jeHY0833CsQ</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/highlights-summer-2015.jpg</video:thumbnail_loc>
+      <video:title>HIGHLIGHTS OF SUMMER 2015</video:title>
+      <video:description>Este verano necesita un tributo. ¡¡Estuvo lleno de viajes, fiestas veraniegas, sol, playas y agua!! Moviéndome de Asturias a Cantabria, pasando por las Islas Ca...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/xwq873lsxl4</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-attrition.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE | ATTRITION</video:title>
+      <video:description>Un vídeo de Freeride montando en un nuevo circuito de Oviedo con diferentes zonas: Campillo, northshores y step-ups. Un sitio perfecto para hacer algunos trucos...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ySV9Xm86BMA</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/morning-shuffle-practices.jpg</video:thumbnail_loc>
+      <video:title>SHUFFLE | MORNING PRACTICE</video:title>
+      <video:description>Una sesión de práctica mañanera en casa con un remix bootleg de Feel Good Inc de Gorillaz....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/dm_IECAECzE</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/beneath-the-sea.jpg</video:thumbnail_loc>
+      <video:title>SCUBA DIVING | BENEATH THE SEA</video:title>
+      <video:description>Mi primer video de buceo, descubriendo un mundo nuevo bajo el mar con variadas especies marinas, barcos hundidos y delfines en la superficie. Grabado con GoPro ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Qqm1NTUlhdU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-slow-motion.jpg</video:thumbnail_loc>
+      <video:title>BMX SLOW MOTION</video:title>
+      <video:description>Nuestro primer video a ultra cámara lenta, usando los 120 fps de la GoPro Hero 4. En este video probamos nuevos ángulos para cambiar la perspectiva de los truco...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Dm7RsOfj8F0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/alejandro-caldevilla-simulacion.jpg</video:thumbnail_loc>
+      <video:title>ALEJANDRO CALDEVILLA SIMULACIÓN</video:title>
+      <video:description>Un comercial para mi amigo Jandro que tiene un negocio de simuladores de conducción para videojuegos....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/FolU9IDfMOY</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/dolphins-race.jpg</video:thumbnail_loc>
+      <video:title>DOLPHIN'S RACE!</video:title>
+      <video:description>Es un día soleado, quedas con los amigos para bucear. Coges todo el equipo y te subes a la lancha. Mientras nos dirigimos al punto de inmersión unos amistosos v...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/EZxsP7flUtQ</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-end-of-year-2014.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE | END OF YEAR 2014</video:title>
+      <video:description>Pequeña edit para decir adiós a este año grabándonos a mi y a Carlos en un nuevo circuito de Freeride en Asturias. ¡Nos vemos en 2015!...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/5JPw8V-5Uss</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/pajares-raquetas-el-cellon.jpg</video:thumbnail_loc>
+      <video:title>WINTER HIKING | EL CELLÓN</video:title>
+      <video:description>Un frío e increíble día haciendo raquetas de nieve en El Cellón, en Asturias. Una ventisca nos alcanzó llegando a la cumbre, por lo que decidimos volver sobre n...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/cQcsMMStmr0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/enduro-chronicles.jpg</video:thumbnail_loc>
+      <video:title>ENDURO CHRONICLES</video:title>
+      <video:description>Rubén Álvarez es uno de los bikers más jovenes que compiten en el Open EnduroAstur BTT. Este video se grabó en algunos de los circuitos oficiales del Open en El...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/SEtdbmXI6co</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/lost-in-shuffle.jpg</video:thumbnail_loc>
+      <video:title>SHUFFLE | LOST IN SHUFFLE</video:title>
+      <video:description>Un dia de shuffle en una fábrica abandonada a ritmo de la música de Sonlounger ¡Relájate y mira!...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/2LIqqtRCMSc</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/downhill-carlos-el-conjuro.jpg</video:thumbnail_loc>
+      <video:title>DOWNHILL | EL CONJURO</video:title>
+      <video:description>Nuestro rider en el sur de España, Carlos Otero nos envía un video de vista subjetica en El Conjuro, un circuito de descenso en Motril....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/GNO4WJ-Yklg</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/jandro-caldevilla-bmx-da2-shop-promo.jpg</video:thumbnail_loc>
+      <video:title>ALEJAREANDRO CALDEVILLA | DA2 SHOP PROMO</video:title>
+      <video:description>Uno de los mejores edits que he hecho. Alejandro Caldevilla, rider bmx patrocinado por Da2 Shop streetwear, nos enseña sus nuevos trucos de bmx, como tailwhips ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/1s0dDeVb9fc</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/one-year-of-shuffle.jpg</video:thumbnail_loc>
+      <video:title>SHUFFLE | ONE YEAR OF SHUFFLE</video:title>
+      <video:description>Un video para celebrar un año bailando shuffle con canciones de diferentes estilos....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/YlVtdEhl0dU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-way-back.jpg</video:thumbnail_loc>
+      <video:title>BMX | WAY BACK</video:title>
+      <video:description>Hacía mucho que no hacía un video de BMX así que... ¿Qué tal si hago uno nuevo en una tarde de verano de relax y música de buen rollo?...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/jAmNdcCiBpw</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/nitrogenic-shuffle.jpg</video:thumbnail_loc>
+      <video:title>SHUFFLE | NITROGENIC SHUFFLE</video:title>
+      <video:description>Mi primer video de Shuffle después de 10 meses de práctica.                         Canción: Vicetone - Hope...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Y1KQD9p8-1A</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/night-enduro.jpg</video:thumbnail_loc>
+      <video:title>MTB | NIGHT ENDURO</video:title>
+      <video:description>Es invierno, se ha terminado la temporada de enduro, estás aburrido en casa, así qué, ¿cuál es el plan? ¡Llama a tus amigos y monta tu bici de noche! ¡Coge tus ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/9Ph6p4nvZrk</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/enduro-cocanin.jpg</video:thumbnail_loc>
+      <video:title>2º ENDURO BTT COCAÑÍN | CAMPEONATO DE ASTURIAS DE ENDURO</video:title>
+      <video:description>Video resumen del 2º Campeonato de Asturias de Enduro. 4 tramos cronometrados llenos de barro en un día helado, un día típico de mountain bike 😉...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/gk_Ax439ioU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/enduroastur-tuna.jpg</video:thumbnail_loc>
+      <video:title>OPEN ENDUROASTUR BTT | TUÑA</video:title>
+      <video:description>La última carrera del Open EnduroAstur BTT tiene lugar en Tuña, un lugar con muchos desniveles que hacen de esta carrera una de las más duras por los grandes de...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/zPN7zjv1vRQ</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/promo-enduroastur.jpg</video:thumbnail_loc>
+      <video:title>PROMO OPEN ENDUROASTUR | TUÑA</video:title>
+      <video:description>Un trailer de la última prueba del Open EnduroAstur en Tuña. Un rápido vistazo a los mejores momentos de las anteriores carreras en El Entrego, Avilés, Oviedo y...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/o-Pi4GrF5PY</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/enduro-cannondale-cercedilla.jpg</video:thumbnail_loc>
+      <video:title>CANNONDALE BIG RIDE | CERCEDILLA</video:title>
+      <video:description>Video subjetivo de nuestro corredor de descenso/enduro Norberto Menéndez en la Cannondale Big Ride en Cercedilla, Madrid. Esta fue la primera competición de Nor...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/P27rgYyz3OU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/enduroastur-monte-naranco.jpg</video:thumbnail_loc>
+      <video:title>OPEN ENDUROASTUR BTT | MONTE NARANCO</video:title>
+      <video:description>El Open EnduroAstur BTT se mueve a la capital de Asturias, Oviedo, Esta vez con un día soleado, descensos con mucho polvo ¡y una competición de saltos para ver ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/PmhkrXdmZiM</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/open-downhill-lastres.jpg</video:thumbnail_loc>
+      <video:title>OPEN DH ASTURIAS 2013 | LASTRES</video:title>
+      <video:description>El descenso urbano del campeonato de Asturias de descenso. Fue un día lluvioso, con mucho barro en algunas partes del circuito y escaleras mojadas en el resto l...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/TSJYDxvsh7M</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/enduroastur-deva.jpg</video:thumbnail_loc>
+      <video:title>OPEN ENDUROASTUR BTT | DEVA</video:title>
+      <video:description>2ª carrera del Open EnduroAstur BTT, que tuvo lugar esta vez en Deva, Gijón. 4 tramos cronometrados, uno de ellos usado para el campeonato de descenso. Esta fue...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/RXV34mmVQa0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/open-downhill-asturias-deva.jpg</video:thumbnail_loc>
+      <video:title>OPEN DH ASTURIAS 2013 | DEVA</video:title>
+      <video:description>La primera carrera de descenso de 2013 y la primera vez en la que el equipo de Freeride Spirit compite en una carrera de descenso. Fue un fin de semana intenso ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/evR-SM3v1IA</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/enduroastur-el-entrego.jpg</video:thumbnail_loc>
+      <video:title>OPEN ENDUROASTUR BTT | EL ENTREGO</video:title>
+      <video:description>La primera carrera de enduro del Open EnduroAstur y ¡viene con un extra de nieve! El tiempo fue realmente inclemente con los corredores, abandonando muchos de e...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/nhDOS7RTnLs</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/downhill-andorra-pais-vasco.jpg</video:thumbnail_loc>
+      <video:title>DOWNHILL | ANDORRA &amp; PAÍS VASCO</video:title>
+      <video:description>Viaje de nuestros corredores Norberto y Octavio con otros amigos en Andorra, con una breve parada en el País Vasco, montando en lugares emblemáticos como el Bik...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/BBmbt2WW9iA</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/progression-bike-2.jpg</video:thumbnail_loc>
+      <video:title>PROGRESSION BIKE 2 | REVOLUTION</video:title>
+      <video:description>PELÍCULA DIVIDIDA EN UNA LISTA DE REPRODUCCIÓN, EL SIGUIENTE VIDEO COMENZARÁ CUANDO TERMINE EL ANTERIOR.                     ¡¡Uno de nuestros mejores (y más la...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/videoseries</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/run-down-the-hills.jpg</video:thumbnail_loc>
+      <video:title>DOWNHILL | RUN DOWN THE HILLS</video:title>
+      <video:description>ste video se grabó mientras estábamos grabando las tomas para la película "Progression Bike 2" en el descenso de Deva, usando las GoPros de nuestros amigos en distintos anclajes.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/hMVV-5uusgI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/progression-bike-2-teaser.jpg</video:thumbnail_loc>
+      <video:title>PROGRESSION BIKE 2 | TEASER</video:title>
+      <video:description>Adelanto de nuestra segunda película: Progression Bike 2 con algunos de las mejores tomas de la película....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/mSmhjRahy1w</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-skate-da2-shop-contest.jpg</video:thumbnail_loc>
+      <video:title>SKATE &amp; BMX | DA2 SHOP CONTEST</video:title>
+      <video:description>Trailer de una competición de skate y bmx organizada por nuestros sponsor Da2 Shop en La Felguera. Acudieron una gran cantidad de bikers y skaters de distintas ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/FLoMpCRXgSI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/bmx-halloween-day.jpg</video:thumbnail_loc>
+      <video:title>BMX | HALLOWEEN'S DAY</video:title>
+      <video:description>En una fría tarde de Halloween, unos bikers deciden celebrar su particular "truco o trato". Jason de viernes 13, el asesino de Scream, un viejo siniestro y un h...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/rdcXGu7DWW4</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/dark-anthem.jpg</video:thumbnail_loc>
+      <video:title>BMX | DARK ANTHEM</video:title>
+      <video:description>Nuestro primer video 100% bmx, con todos los riders de bmx de Freeride Spirit en 2011 (Tanais Menéndez, Alejandro Caldevilla, Carlos Otero y Nacho Iglesias). La...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/8lBRJptpkDc</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/tanais-da2-shop-promo.jpg</video:thumbnail_loc>
+      <video:title>TANAIS MENÉNDEZ | DA2 SHOP PROMO</video:title>
+      <video:description>Video promocional de BMX y MTB para mi patrocinador, Da2Shop, tienda de ropa urbana y skateboard....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Ki5PG1gRjqU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/all-bike-games-2010.jpg</video:thumbnail_loc>
+      <video:title>MTB &amp; BMX | ALL BIKE GAMES 2010</video:title>
+      <video:description>En 2010, los bikers urbanos de Oviedo crearon un nuevo formato de competición. El evento se organizó en el Skatepark de Oviedo y acudieron personas de distintas...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/8rFgcdbhsWE</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/broken-rider.jpg</video:thumbnail_loc>
+      <video:title>DOWNHILL | BROKEN RIDER</video:title>
+      <video:description>Uno de los primeros entrenamientos de descenso después de mi accidente. Bajando despacio, pero es un comienzo después de todo....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/eaCjUTRIhvI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/ride-fast.jpg</video:thumbnail_loc>
+      <video:title>DOWNHILL | RIDE FAST!</video:title>
+      <video:description>Este es el tercer video de Carlos Otero, con mejor calidad de imagen y mejor técnica en la bicicleta. Grabado en agosto de 2010 en dos circuitos de descenso de ...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/P_oRPNPk8NI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/patria-freerider.jpg</video:thumbnail_loc>
+      <video:title>BMX | PATRIA FREERIDER</video:title>
+      <video:description>Un video de bmx street que hice para Nacho Iglesias. En este video superpuse tomas de un videoclip de un rapero asturiano llamado Arma X....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/xuXe1gX8qgM</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/versatility.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE | VERSATILITY</video:title>
+      <video:description>En principio esto iba a ser un video promocional pero al final cambió completamente por culpa de la caída que me rompió el hombro en Gijón. Un buen video con al...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/h5QQ5s5plrU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-photo-session-2009.jpg</video:thumbnail_loc>
+      <video:title>MTB | FREERIDE PHOTO SESSION 2009</video:title>
+      <video:description>Las mejores fotos de 2009 en un solo video. Un año de nuevos trucos, descensos más rápidos y muy buenos momentos guardados en estas fotografías....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/nZKDoO-oYCI</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/alerta-felguera.jpg</video:thumbnail_loc>
+      <video:title>URBAN FREERIDE | ALERTA FELGUERA</video:title>
+      <video:description>MTB en las calles de La Felguera, mi ciudad natal, con música hardcore de Escuela de Odio....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/BWR8tphl9s8</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/deva-downhill.jpg</video:thumbnail_loc>
+      <video:title>MTB | DEVA DOWNHILL</video:title>
+      <video:description>Un video de vista subjetiva de Carlos Otero y mío en el descenso de Deva en Gijón grabado en 2009....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/O25YFosCwbU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-day.jpg</video:thumbnail_loc>
+      <video:title>MTB | FREERIDE DAY</video:title>
+      <video:description>Un proyecto audiovisual personal que hice para una tarea de instituto. Solo un día de freeride más 😉...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/P2lsDb-DCn0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-photo-session-2008.jpg</video:thumbnail_loc>
+      <video:title>MTB | FREERIDE PHOTO SESSION 2008</video:title>
+      <video:description>La Photo Session de 2008, un año de cambios con nuevas bicis para cada uno de los bikers de Freeride Spirit (una Mondraker Plunder para Norberto, una Specialize...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/01PPOoT9MMo</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-summer-memories.jpg</video:thumbnail_loc>
+      <video:title>MTB | FREERIDE SUMMER MEMORIES</video:title>
+      <video:description>Un video recopilatorio de este verano lleno de Freeride, nuevos circuitos de MTB en Campona y también con partes de freeride, street y campillos....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/0mF5G22KhrU</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/some-kind-of-riding.jpg</video:thumbnail_loc>
+      <video:title>MTB | SOME KIND OF RIDING</video:title>
+      <video:description>Segundo video de nuestro biker Carlos Otero, sus primeros pasos en el mundo del mountain bike....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/6wIeU02NJIo</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/compulsory-insurance.jpg</video:thumbnail_loc>
+      <video:title>URBAN FREERIDE | COMPULSORY INSURANCE</video:title>
+      <video:description>Uno de mis primerísimos videos de MTB urbano en diferentes lugares de la cuenca minera en Asturias....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/AusjxiJYSjc</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/making-of-jungle-bikepark.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE | MAKING OF THE JUNGLE BIKEPARK</video:title>
+      <video:description>Tomas de los días en los que se filmó el video "Freeriding in the Jungle Bikepark"con Norberto Menéndez, Carlos Otero y yo....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/eEDbmkZdaic</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/tai-jitsu-exhibicion.jpg</video:thumbnail_loc>
+      <video:title>TAI-JITSU | EXHIBICIÓN FÉLIX SHOTOKAN 2007</video:title>
+      <video:description>En un día de sol en las fiestas de pueblo de La Felguera, la clase de Tai-jitsu del gimnasio Félix Shotokan  (en el que me incluyo) hizo una exhibición de artes...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ejmzw-qg1Mk</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeriding-in-the-jungle-bikepark.jpg</video:thumbnail_loc>
+      <video:title>FREERIDE | FREERIDING IN THE JUNGLE BIKEPARK</video:title>
+      <video:description>El Jungle Bikepark es un circuito de freeride construido por mi padre, Santiago, En este video podéis ver las diferentes pistas del bikepark incluyendo northsho...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/itFjaMy2img</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/freeride-spirit-photo-session-2007.jpg</video:thumbnail_loc>
+      <video:title>MTB | FREERIDE PHOTO SESSION 2007</video:title>
+      <video:description>Un año entero de fotos en un solo video, incluyendo los comienzos de los componentes más viejos de Freeride Spirit: Carlos Otero, Norberto Menéndez y yo....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/9ktmQunxg_0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/progression-bike.jpg</video:thumbnail_loc>
+      <video:title>MTB | PROGRESSION BIKE: THE BEGINNING</video:title>
+      <video:description>Nuestra primera película de mountain bike, grabada entre 2006 y 2007. Nuestros comienzos más tempranos que forman parte de lo que somos actualmente, un grupo de...</video:description>
+      <video:player_loc>https://www.youtube.com/embed/gdgjKj_Y3M0</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/progression-bike-teaser-2.jpg</video:thumbnail_loc>
+      <video:title>PROGRESSION BIKE| TEASER #2</video:title>
+      <video:description>Segundo trailer de la película de nuestros comienzos: Progression Bike....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/1uvJ91jWd50</video:player_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tanaismenendez.es/img/covers/progression-bike-teaser-1.jpg</video:thumbnail_loc>
+      <video:title>PROGRESSION BIKE| TEASER #1</video:title>
+      <video:description>Primer trailer de la película de nuestros comienzos: Progression Bike....</video:description>
+      <video:player_loc>https://www.youtube.com/embed/9Fpr7tXG8Is</video:player_loc>
+    </video:video>
+  </url>
 </urlset>

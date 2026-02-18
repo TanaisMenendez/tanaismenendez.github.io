@@ -1,0 +1,145 @@
+let playlist = [],
+    currentIndex = 0,
+    containers = [],
+    isAnimating = !1,
+    touchStartX = 0,
+    touchEndX = 0;
+function toggleMenu() {
+    document.getElementById("card-menu").classList.toggle("menu-abierto"),
+        document.getElementById("show-menu").classList.toggle("open");
+}
+function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+document.addEventListener("DOMContentLoaded", () => {
+    const e = document.querySelectorAll(".toolbar .button"),
+        t = document.querySelectorAll(".video");
+    updatePlaylist(),
+        e.forEach((n) => {
+            n.addEventListener("click", () => {
+                e.forEach((e) => e.classList.remove("active")), n.classList.add("active");
+                const o = n.getAttribute("data-filter");
+                t.forEach((e) => e.classList.add("anim-out")),
+                    setTimeout(() => {
+                        t.forEach((e) => {
+                            "all" === o || e.classList.contains(o)
+                                ? (e.classList.remove("hidden"), void e.offsetWidth, e.classList.remove("anim-out"))
+                                : e.classList.add("hidden");
+                        }),
+                            updatePlaylist();
+                    }, 400);
+            });
+        });
+    const n = document.querySelector(".lightbox-container"),
+        o = n.cloneNode(!0);
+    document.getElementById("video-lightbox").appendChild(o),
+        (containers = [n, o]),
+        n.classList.add("lc-active"),
+        setupContainerEvents(n),
+        setupContainerEvents(o),
+        document.addEventListener("click", function (e) {
+            const t = e.target.closest(".video a");
+            if (t) {
+                e.preventDefault();
+                const n = playlist.indexOf(t);
+                -1 !== n && ((currentIndex = n), openLightbox(currentIndex));
+            }
+        });
+    const i = window.location.hash;
+    if (i) {
+        const e = document.querySelector(`a[href="${i}"]`);
+        if (e && !e.closest(".video").classList.contains("hidden")) {
+            const t = playlist.indexOf(e);
+            -1 !== t && ((currentIndex = t), openLightbox(currentIndex));
+        }
+    }
+    const c = document.getElementById("dateDivy");
+    c && (c.textContent = new Date().getFullYear()),
+        document.getElementById("video-lightbox").addEventListener("click", function (e) {
+            e.target === this && closeLightbox();
+        }),
+        document.addEventListener("keydown", function (e) {
+            if (!document.getElementById("video-lightbox").classList.contains("active")) return;
+            "ArrowRight" === e.key && changeVideo(1),
+                "ArrowLeft" === e.key && changeVideo(-1),
+                "Escape" === e.key && closeLightbox();
+        }),
+        document.addEventListener(
+            "touchstart",
+            (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            },
+            { passive: !0 }
+        ),
+        document.addEventListener(
+            "touchend",
+            (e) => {
+                if (!document.getElementById("video-lightbox").classList.contains("active")) return;
+                touchEndX = e.changedTouches[0].screenX;
+                Math.abs(touchStartX - touchEndX) > 50 && changeVideo(touchStartX > touchEndX ? 1 : -1);
+            },
+            { passive: !0 }
+        );
+});
+function updatePlaylist() {
+    const e = document.querySelectorAll(".video:not(.hidden) a");
+    playlist = Array.from(e);
+}
+function setupContainerEvents(e) {
+    e.querySelector(".lightbox-close").addEventListener("click", closeLightbox),
+        e.addEventListener("click", (e) => {
+            e.target.closest(".lb-prev-btn") && changeVideo(-1), e.target.closest(".lb-next-btn") && changeVideo(1);
+        });
+}
+function loadContent(e, t) {
+    if (t < 0 || t >= playlist.length) return;
+    const n = playlist[t],
+        o = n.getAttribute("data-youtube-id"),
+        i = n.getAttribute("href"),
+        c = "info-" + i.substring(1),
+        a = document.getElementById(c);
+    let r = n.querySelector("h4").innerText,
+        d = "";
+    (d = a ? a.innerHTML : `<p>${n.getAttribute("data-desc") || ""}</p>`),
+        (e.querySelector(".lb-content-area").innerHTML = `<h3>${r}</h3>${d}`),
+        (e.querySelector("iframe").src = "https://www.youtube.com/embed/" + o + "?autoplay=1&rel=0&modestbranding=1");
+}
+function openLightbox(e) {
+    const t = document.querySelector(".lightbox-container.lc-active");
+    loadContent(t, e),
+        document.getElementById("video-lightbox").classList.add("active"),
+        (document.body.style.overflow = "hidden");
+    const n = playlist[e];
+    n && history.pushState(null, null, n.getAttribute("href"));
+}
+function changeVideo(e) {
+    if (isAnimating) return;
+    isAnimating = !0;
+    let t = currentIndex + e;
+    t >= playlist.length && (t = 0), t < 0 && (t = playlist.length - 1), (currentIndex = t);
+    const n = document.querySelector(".lightbox-container.lc-active"),
+        o = containers.find((e) => e !== n);
+    loadContent(o, currentIndex),
+        o.classList.add(1 === e ? "set-pos-right" : "set-pos-left"),
+        void o.offsetWidth,
+        o.classList.remove("set-pos-right", "set-pos-left"),
+        n.classList.add(1 === e ? "anim-out-left" : "anim-out-right"),
+        n.classList.remove("lc-active"),
+        o.classList.add("lc-active");
+    const i = playlist[currentIndex];
+    i && history.pushState(null, null, i.getAttribute("href")),
+        setTimeout(() => {
+            (n.querySelector("iframe").src = ""),
+                n.classList.remove("anim-out-left", "anim-out-right"),
+                (isAnimating = !1);
+        }, 600);
+}
+function closeLightbox() {
+    const e = document.getElementById("video-lightbox");
+    e.classList.remove("active"),
+        setTimeout(() => {
+            containers.forEach((e) => (e.querySelector("iframe").src = ""));
+        }, 300),
+        (document.body.style.overflow = "auto"),
+        history.pushState(null, null, window.location.pathname);
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
     <meta name="keywords" content="tanais menendez, filmmaking, adventure videos, sport videos, travel videos">
-    <meta name="description" content="Me dedico a capturar todo tipo de momentos, en un proyecto audiovisual de toda una vida.">
+    <meta name="description" content="¿Qué es la vida si no momentos que brillan intensamente cuando los recordamos? Me llamo Tanais Menéndez y disfruto compartiendo con el mundo esos pequeños momentos que nos regala la vida, cuando miramos más allá de la rutina, el trabajo y la ciudad. En este pequeño lugar de internet encontrarás esos momentos que comparto con amigos y familia, sobre todo a través de la naturaleza y el deporte.">
     <meta name="owner" content="Tanais Menéndez">
     <meta name="author" content="Tanais Menéndez">
     <meta name="robots" content="index, follow">
@@ -19,21 +19,19 @@
     <meta property="og:url" content="https://tanaismenendez.es/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Tanais Menéndez Filmmaker" />
-    <meta property="og:description" content="Me dedico a capturar todo tipo de momentos, en un proyecto audiovisual de toda una vida." />
+    <meta property="og:description" content="¿Qué es la vida si no momentos que brillan intensamente cuando los recordamos? Me llamo Tanais Menéndez y disfruto compartiendo con el mundo esos pequeños momentos que nos regala la vida, cuando miramos más allá de la rutina, el trabajo y la ciudad. En este pequeño lugar de internet encontrarás esos momentos que comparto con amigos y familia, sobre todo a través de la naturaleza y el deporte." />
     <meta property="og:image" content="https://tanaismenendez.es/img/open-graph/tanais-menendez.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/icomoon.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index-design.min.css">
     <link rel="stylesheet" href="css/aos.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/menu.js"></script>
-
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/aos.js"></script>
 </head>
 <body>
     <header>
@@ -48,12 +46,17 @@
 </div>
         <nav>
             <div id="card-menu" class="menu-cerrado">
-                <figure id="logo-menu" class="close-menu"><a href="#home"><img src="icons/tanaismenendez_logo.png" alt="Tanais Menéndez Filmmaker"></a></figure>
                 <ul>
                     <li><a href="#portfolio" class="close-menu">PORTFOLIO</a></li>
                     <li><a href="#about" class="close-menu">ABOUT ME</a></li>
-                    <li class="social-icons"><a id="instagram" href="https://instagram.com/tanaismenendez" target="_blank"></a></li>
-                    <li class="social-icons"><a id="youtube" href="https://www.youtube.com/@TanaisMenendez" target="_blank"></a></li>
+                    <li class="social-icons"><a href="https://www.youtube.com/@TanaisMenendez" target="_blank" class="icon-svg">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                                            </a>
+                    </li>
+                    <li class="social-icons"><a href="https://instagram.com/tanaismenendez" target="_blank" class="icon-svg">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
+                                            </a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -71,7 +74,7 @@
                 </div>
                 <div data-aos="fade-down" data-aos-anchor="#home" id="icon-home">
                     <a href="#portfolio">
-                        <div class="home-buttom-border" id="PFBTN">
+                        <div class="home-buttom-border">
                             <div class="home-buttom">PORTFOLIO</div>
                         </div>
                     </a>
@@ -86,7 +89,7 @@
         <section id="portfolio" style="overflow-x: hidden">
                 <div id="latest-videos">
                     <div data-aos="fade" class="video">
-                        <a href="freediving-faro-del-caballo" data-youtube-id="oEdGdQXxo8A" data-desc="Desde que visité el Faro del Caballo, en Santoña (Cantabria), siempre me quedé con las ganas de bajar el neopreno y el resto del equipo para bucear por esas aguas turquesas[...]">
+                        <a href="/portfolio/#freediving-faro-del-caballo" data-youtube-id="oEdGdQXxo8A" data-desc="Desde que visité el Faro del Caballo, en Santoña (Cantabria), siempre me quedé con las ganas de bajar el neopreno y el resto del equipo para bucear por esas aguas turquesas[...]">
                             <div class="element-text">
                                 <h4>FREEDIVING | FARO DEL CABALLO</h4>
                             </div>
@@ -96,7 +99,7 @@
                         </a>
                     </div>
                     <div data-aos="fade" class="video">
-                        <a href="pumptrack-session" data-youtube-id="BOP920lelHU" data-desc="Hace tiempo que no subo contenido de bici (y pensar que todo esto empezó con unos chavales grabando sus primeros saltos con la MTB 😁), así que os dejo por aquí una edit ca[...]">
+                        <a href="/portfolio#pumptrack-session" data-youtube-id="BOP920lelHU" data-desc="Hace tiempo que no subo contenido de bici (y pensar que todo esto empezó con unos chavales grabando sus primeros saltos con la MTB 😁), así que os dejo por aquí una edit ca[...]">
                             <div class="element-text">
                                 <h4>MTB | PUMPTRACK SESSION</h4>
                             </div>
@@ -106,7 +109,7 @@
                         </a>
                     </div>
                     <div data-aos="fade" class="video">
-                        <a href="atardecer-en-cabrones" data-youtube-id="3jtQLTOB1fA" data-desc="Este es un vídeo algo diferente al resto… pero, te hago una pregunta: ¿hace cuanto que no te paras unos minutos a contemplar a tu alrededor?[...]">
+                        <a href="/portfolio#atardecer-en-cabrones" data-youtube-id="3jtQLTOB1fA" data-desc="Este es un vídeo algo diferente al resto… pero, te hago una pregunta: ¿hace cuanto que no te paras unos minutos a contemplar a tu alrededor?[...]">
                             <div class="element-text">
                                 <h4>PICOS DE EUROPA | ATARDECER EN JOU DE LOS CABRONES</h4>
                             </div>
@@ -116,7 +119,7 @@
                         </a>
                     </div>                     
                     <div data-aos="fade" class="video">
-                        <a href="malaga-almeria-travel-video" data-youtube-id="l_6pdki1XF0" data-desc="¿Quién diría que una escapada a Málaga y Almería iba a dar tanto de sí? 😁
+                        <a href="/portfolio#malaga-almeria-travel-video" data-youtube-id="l_6pdki1XF0" data-desc="¿Quién diría que una escapada a Málaga y Almería iba a dar tanto de sí? 😁
                         Desde las costas salvajes de Cabo de Gata, hasta los parajes desérticos de Tabernas, pasando por[...]">
                             <div class="element-text">
                                 <h4>MÁLAGA & ALMERÍA - TRAVEL VIDEO</h4>
@@ -127,7 +130,7 @@
                         </a>
                     </div>                  
                     <div data-aos="fade" class="video">
-                        <a href="the-lost-grateful-years" data-youtube-id="ny2Z-8XPEdE" data-desc="Pensaba titular a este video 'Los Años Perdidos', al fin y al cabo... todos nos sentimos perdidos en algún momento de nuestra vida. Y durante estos años, he dejado de [...]">
+                        <a href="/portfolio#the-lost-grateful-years" data-youtube-id="ny2Z-8XPEdE" data-desc="Pensaba titular a este video 'Los Años Perdidos', al fin y al cabo... todos nos sentimos perdidos en algún momento de nuestra vida. Y durante estos años, he dejado de [...]">
                             <div class="element-text">
                                 <h4>THE LOST/GRATEFUL YEARS</h4>
                             </div>
@@ -137,7 +140,7 @@
                         </a>
                     </div>
                     <div data-aos="fade" class="video">
-                        <a href="resurrection-fest-2025" data-youtube-id="rDucRML8zuo" data-desc="Y otro año más (¡y ya van 4!) que cumplimos con nuestra visita al Resurrection Fest en Viveiro, un lugar que ya es punto de encuentro para nosotros y unos días es los que[...]">
+                        <a href="/portfolio#resurrection-fest-2025" data-youtube-id="rDucRML8zuo" data-desc="Y otro año más (¡y ya van 4!) que cumplimos con nuestra visita al Resurrection Fest en Viveiro, un lugar que ya es punto de encuentro para nosotros y unos días es los que[...]">
                             <div class="element-text">
                                 <h4>RESURRECTION FEST 2025</h4>
                             </div>
@@ -180,11 +183,22 @@
                 </div>
         </section>
     </div>
-    <a href="#" class="scrollToTop"><div onclick="topFunction()" id="button-up" class="icon-angle-up"></div></a>
+    <a href="#" class="scrollToTop">
+    <div onclick="topFunction()" id="button-up">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+</svg>
+
+    </div>
+    </a>
     <footer>		
         <div class="rrss">
-            <a href="https://instagram.com/tanaismenendez" target="_blank"></a>
-            <a href="https://youtube.com/FreerideSpirit" target="_blank"></a>
+            <a href="https://www.youtube.com/@TanaisMenendez" target="_blank" class="icon-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+             </a>
+            <a href="https://instagram.com/tanaismenendez" target="_blank" class="icon-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
+            </a>
         </div>
         <p>TANAIS MENÉNDEZ FILMMAKER <span id="dateDivy"></span></p>	
     </footer>
@@ -212,15 +226,10 @@
         </div>
     </div>
 </div>
-    <script src="js/smooth-scroll.js"></script>
-    <script src="js/button-up.js"></script>
-    <script src="js/show-date.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/lightbox.min.js"></script>
-    <script>
-        AOS.init({
-          duration: 1000,
-        })
-      </script>
 </body>
+<script>
+    AOS.init({
+      duration: 1000,
+    })
+</script>
 </html>
