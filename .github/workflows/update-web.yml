@@ -1,0 +1,35 @@
+name: Update Portfolio
+
+on:
+  push:
+    paths:
+      - 'videos.json' # Solo se activa si tocas el archivo de vídeos
+      - 'build.py'
+      - 'img/**' # O si subes imágenes nuevas
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write # Permiso para que el robot pueda hacer "git push"
+
+    steps:
+    - name: Chequear código
+      uses: actions/checkout@v3
+
+    - name: Instalar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Ejecutar script de construcción
+      run: python build_portfolio.py
+
+    - name: Guardar cambios (Commit & Push)
+      run: |
+        git config --global user.name 'Portfolio Bot'
+        git config --global user.email 'bot@tanaismenendez.es'
+        git add .
+        git commit -m "🤖 Actualización automática del portfolio" || echo "Nada que actualizar"
+        git push
