@@ -23,7 +23,7 @@ STUB_TEMPLATE = """<!DOCTYPE html>
     <meta property="og:type" content="website">
     <meta property="og:title" content="{title_stub}">
     <meta property="og:description" content="{desc_clean}">
-    <meta property="og:image" content="/img/open-graph/{slug}.jpg">
+    <meta property="og:image" content="https://tanaismenendez.es/img/open-graph/{slug}.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
@@ -32,7 +32,7 @@ STUB_TEMPLATE = """<!DOCTYPE html>
     <meta property="twitter:url" content="https://tanaismenendez.es/{slug}">
     <meta name="twitter:title" content="{title_stub}">
     <meta name="twitter:description" content="{desc_clean}">
-    <meta name="twitter:image" content="/img/open-graph/{slug}.jpg">
+    <meta name="twitter:image" content="https://tanaismenendez.es/img/open-graph/{slug}.jpg">
 
     <script>
         window.location.href = "/portfolio#{slug}";
